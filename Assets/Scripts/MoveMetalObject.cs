@@ -34,6 +34,14 @@ public class MoveMetalObject : MonoBehaviour {
         grabber = null;
     }
 
+    void OnCollisionEnter(Collision collision) {
+        touchingSurface = true;
+    }
+
+    void OnCollisionExit(Collision collision) {
+        touchingSurface = false;
+    }
+
     void FixedUpdate() {
         Vector3 v = GetVelocity();
         lastPos = transform.position;
