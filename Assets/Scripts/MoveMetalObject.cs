@@ -2,15 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour {
+public class MoveMetalObject : MonoBehaviour {
 
     public CharacterController controller;
-    public float speed = 1f;
-    public Transform floorDetector;
-    public float floorDistance = 0.1f;
-    public LayerMask floor;
+    public float drag = 0.7f;
 
-    private bool inGround;
+    private PlayerMovement grabber = null;
+    private Vector3 grabbingSpeed;
+    private bool touchingSurface = true;
     private Vector3 lastPos;
     private Vector3 pendingVelocity = new Vector3(0, 0, 0);
 
@@ -23,25 +22,34 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     void Start() {
-        
+
+    }
+
+    public void Grab(Vector3 speed, PlayerMovement cont) {
+        grabber = cont;
+        grabbingSpeed = speed;
+    }
+
+    public void Release() {
+        grabber = null;
     }
 
     void FixedUpdate() {
-        this.inGround = Physics.CheckSphere(this.floorDetector.position, this.floorDistance, this.floor);
-        float x = 0; //get x from input
-        float y = 0; //get y from input
         Vector3 v = GetVelocity();
         lastPos = transform.position;
-        v += Physics.gravity;
-        v += pendingVelocity;
-        if (inGround) {
-            v.x = 0;
-            v.y = 0;
-            v.z = 0;
+        if (grabber == null) {
+            v += Physics.gravity;
+        } else {
+            grabber.AddVelocity(grabbingSpeed - v);
         }
-        v.x = x * speed;
-        v.y = y * speed;
+        v += pendingVelocity;
+        if (touchingSurface) {
+            v.x -= v.x * drag;
+            v.y -= v.y * drag;
+            v.z -= v.z * drag;
+        }
         pendingVelocity = new Vector3(0, 0, 0);
         this.controller.Move(v * Time.fixedDeltaTime);
     }
+
 }
