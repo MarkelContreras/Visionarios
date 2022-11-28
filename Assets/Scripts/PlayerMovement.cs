@@ -5,7 +5,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour {
 
-    public InputActionReference moveAction;
+    public InputActionAsset inputActionAsset;
+    private InputAction moveAction;
     public CharacterController controller;
     public float speed = 1f;
     public Transform floorDetector;
@@ -17,6 +18,11 @@ public class PlayerMovement : MonoBehaviour {
     private Vector3 pendingVelocity = new Vector3(0, 0, 0);
     private Vector2 moveDir = new Vector2(0, 0);
 
+    private void Awake() {
+        inputActionAsset.Enable();
+        moveAction = inputActionAsset.FindAction("Move");
+    }
+
     public void AddVelocity(Vector3 velocity) {
         pendingVelocity += velocity;
     }
@@ -25,17 +31,8 @@ public class PlayerMovement : MonoBehaviour {
         return (transform.position - lastPos) / Time.fixedDeltaTime;
     }
 
-    void Start() {
-        moveAction.action.started += moveActionStarted;
-        //moveAction.action.stopped += moveActionStopped;
-    }
-
-    void moveActionStarted(InputAction.CallbackContext context) {
-        moveDir = context.ReadValue<Vector2>();
-    }
-
-    void moveActionStopped(InputAction.CallbackContext context) {
-        moveDir = Vector2.zero;
+    private void Update() {
+        moveDir = moveAction.ReadValue<Vector2>();
     }
 
     void FixedUpdate() {
