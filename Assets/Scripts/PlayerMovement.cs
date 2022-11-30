@@ -48,8 +48,7 @@ public class PlayerMovement : MonoBehaviour {
             v.y = 0;
             v.z = 0;
         }
-        Vector3 m = (camera.rotation * new Vector3(moveDir.x * speed, 0, moveDir.y * speed)).normalized;
-        v += m;
+        v += (Quaternion.Euler(0, camera.rotation.eulerAngles.y, 0) * new Vector3(moveDir.x, 0, moveDir.y)) * speed;
         pendingVelocity = new Vector3(0, 0, 0);
         this.controller.Move(v * Time.fixedDeltaTime);
     }
