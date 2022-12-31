@@ -1,37 +1,66 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class GrabManager : MonoBehaviour {
 
-    private static PlayerMovement controller;
-    private static MoveMetalObject grabbedObject = null;
+    private static MoveMetalObject target = null;
 
-    public GameObject playerGrabber;
+    public InputActionAsset inputActionAsset;
     public PlayerMovement playerController;
     public float maxRange = 10.0f;
+    public float minRange = 0.3f;
+    public float speed = 1.0f;
 
-    public static void Grab(MoveMetalObject obj) {
-        if (grabbedObject == null) {
-            grabbedObject = obj;
-            obj.Grab(controller);
-        }
+    private MoveMetalObject obj = null;
+    private InputAction metalAction;
+    private float mult = 0.0f;
+
+    public static void Target(MoveMetalObject obj) {
+        target = obj;
     }
 
-    public static void Release() {
-        if (grabbedObject != null) {
-            grabbedObject.Release();
-        }
+    public static void Untarget() {
+        target = null;
     }
 
-    void Awake() {
-        controller = this.playerController;
+    private void Awake() {
+        inputActionAsset.Enable();
+        metalAction = inputActionAsset.FindAction("Metal");
+    }
+
+    private void Update() {
+        mult = metalAction.ReadValue<float>();
+        if (mult != 0 ) {
+            if (target != null && obj == null) {
+                Vector3 dir = target.transform.position - transform.position;
+                if (dir.magnitude <= maxRange) {
+                    obj = target;
+                    obj.Grab(playerController);
+                }
+            }
+        } else {
+            obj.Release();
+            obj = null;
+        }
     }
 
     void FixedUpdate() {
-        if (grabbedObject != null) {
-            Vector3 dir = grabbedObject.transform.position - transform.position;
+        if (obj != null) {
+            Vector3 dir = obj.transform.position - transform.position;
             float dist = dir.magnitude;
+            Vector3 v = dir.normalized * mult * speed;
+            Vector3 comp = obj.transform.position + v;
+            float newDist = comp.magnitude;
+            if (newDist > maxRange) {
+                comp *= (maxRange / newDist);
+                v = comp - dir;
+            } else if (newDist < minRange) {
+                comp *= (minRange / newDist);
+                v = comp - dir;
+            }
+            obj.UpdateGrab(v);
         }
     }
 }
