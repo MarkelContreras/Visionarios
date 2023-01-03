@@ -17,13 +17,18 @@ public class SelectorNiveles : MonoBehaviour
         
     }
 
-    public void NivelAldea()
+    public void SiguientePagina()
     {
-        SceneManager.LoadScene("Nivel Aldea");
+        SceneManager.LoadScene("SelectorNiveles2");
     }
 
     public void NivelTutorial()
     {
-        SceneManager.LoadScene("NivelMuestra");
+        SceneManager.LoadScene("Nivel1");
+    }
+
+    public void Salir()
+    {
+        Scene.Manager.LoadScene("MenuPrincipal")
     }
 }
