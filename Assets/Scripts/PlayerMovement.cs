@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour {
     private bool inGround;
     private Vector3 lastPos;
     private Vector3 pendingVelocity = new Vector3(0, 0, 0);
+    private Vector3 walkVelocity = new Vector3(0, 0, 0);
     private Vector2 moveDir = new Vector2(0, 0);
 
     private void Awake() {
@@ -27,7 +28,6 @@ public class PlayerMovement : MonoBehaviour {
 
     public void AddVelocity(Vector3 velocity) {
         pendingVelocity += velocity;
-        Debug.Log(pendingVelocity);
     }
 
     public Vector3 GetVelocity() {
@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour {
 
     void FixedUpdate() {
         this.inGround = Physics.CheckSphere(this.floorDetector.position, this.floorDistance, this.floor);
-        Vector3 v = GetVelocity();
+        Vector3 v = GetVelocity() - walkVelocity;
         lastPos = transform.position;
         v += Physics.gravity * Time.fixedDeltaTime;
         if (inGround) {
@@ -48,9 +48,12 @@ public class PlayerMovement : MonoBehaviour {
             v.y = 0;
             v.z = 0;
         }
-        v += pendingVelocity;
-        v += (Quaternion.Euler(0, camera.rotation.eulerAngles.y, 0) * new Vector3(moveDir.x, 0, moveDir.y)) * speed;
-        pendingVelocity = new Vector3(0, 0, 0);
-        this.controller.Move(v * Time.fixedDeltaTime);
+        if (pendingVelocity != Vector3.zero) {
+            v = pendingVelocity;
+            pendingVelocity = Vector3.zero;
+        }
+        v += Physics.gravity * Time.fixedDeltaTime;
+        walkVelocity = (Quaternion.Euler(0, camera.rotation.eulerAngles.y, 0) * new Vector3(moveDir.x, 0, moveDir.y)) * speed;
+        this.controller.Move((v + walkVelocity) * Time.fixedDeltaTime);
     }
 }

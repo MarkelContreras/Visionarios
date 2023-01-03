@@ -40,10 +40,13 @@ public class MoveMetalObject : MonoBehaviour {
     void FixedUpdate() {
         if (grabber != null) {
             if (!justGrabbed) {
-                if (rb != null)
-                    grabber.AddVelocity(-(grabingSpeed - rb.velocity));
-                else
-                    grabber.AddVelocity(-grabingSpeed);
+                Vector3 backForce = -grabingSpeed;
+                if (rb != null) backForce += rb.velocity;
+                Vector3 minBackForce = GrabManager.GetMinBackForce();
+                if (Mathf.Abs(backForce.x) < minBackForce.x) backForce.x = 0;
+                if (Mathf.Abs(backForce.y) < minBackForce.z) backForce.y = 0;
+                if (Mathf.Abs(backForce.z) < minBackForce.y) backForce.z = 0;
+                grabber.AddVelocity(backForce);
             }
             justGrabbed = false;
             if (rb != null) rb.velocity = grabingSpeed;
