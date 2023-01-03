@@ -29,6 +29,6 @@ public class SelectorNiveles : MonoBehaviour
 
     public void Salir()
     {
-        Scene.Manager.LoadScene("MenuPrincipal")
+        SceneManager.LoadScene("MenuPrincipal");
     }
 }
