@@ -35,12 +35,14 @@ public class GrabManager : MonoBehaviour {
         if (mult != 0 ) {
             if (target != null && obj == null) {
                 Vector3 dir = target.transform.position - transform.position;
+                Debug.Log(dir.magnitude);
                 if (dir.magnitude <= maxRange) {
                     obj = target;
                     obj.Grab(playerController);
                 }
             }
-        } else {
+        } else if (obj != null) {
+            Debug.Log("UnGrab");
             obj.Release();
             obj = null;
         }

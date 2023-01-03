@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class MoveMetalObject : MonoBehaviour {
 
@@ -13,10 +14,18 @@ public class MoveMetalObject : MonoBehaviour {
         rb = GetComponent<Rigidbody>();
     }
 
+    public void HoverEnter() {
+        GrabManager.Target(this);
+    }
+
+    public void HoverExit() {
+        GrabManager.Untarget();
+    }
+
     public void Grab(PlayerMovement cont) {
         grabber = cont;
         justGrabbed = true;
-        rb.useGravity = false;
+        if (rb != null)     rb.useGravity = false;
     }
 
     public void UpdateGrab(Vector3 speed) {
@@ -25,16 +34,19 @@ public class MoveMetalObject : MonoBehaviour {
 
     public void Release() {
         grabber = null;
-        rb.useGravity = true;
+        if (rb != null) rb.useGravity = true;
     }
 
     void FixedUpdate() {
         if (grabber != null) {
             if (!justGrabbed) {
-                grabber.AddVelocity(grabingSpeed - rb.velocity);
+                if (rb != null)
+                    grabber.AddVelocity(-(grabingSpeed - rb.velocity));
+                else
+                    grabber.AddVelocity(-grabingSpeed);
             }
             justGrabbed = false;
-            rb.velocity = grabingSpeed;
+            if (rb != null) rb.velocity = grabingSpeed;
         }
     }
 

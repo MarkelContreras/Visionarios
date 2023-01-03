@@ -27,6 +27,7 @@ public class PlayerMovement : MonoBehaviour {
 
     public void AddVelocity(Vector3 velocity) {
         pendingVelocity += velocity;
+        Debug.Log(pendingVelocity);
     }
 
     public Vector3 GetVelocity() {
@@ -42,12 +43,12 @@ public class PlayerMovement : MonoBehaviour {
         Vector3 v = GetVelocity();
         lastPos = transform.position;
         v += Physics.gravity * Time.fixedDeltaTime;
-        v += pendingVelocity;
         if (inGround) {
             v.x = 0;
             v.y = 0;
             v.z = 0;
         }
+        v += pendingVelocity;
         v += (Quaternion.Euler(0, camera.rotation.eulerAngles.y, 0) * new Vector3(moveDir.x, 0, moveDir.y)) * speed;
         pendingVelocity = new Vector3(0, 0, 0);
         this.controller.Move(v * Time.fixedDeltaTime);
