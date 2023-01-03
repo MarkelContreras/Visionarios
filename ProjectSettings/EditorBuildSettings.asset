@@ -18,19 +18,19 @@ EditorBuildSettings:
     path: Assets/Scenes/SelectorNiveles.unity
     guid: 733aaca727fa5a446ac6d76606148a9c
   - enabled: 1
-    path: Assets/Scenes/Castillo.unity
+    path: Assets/Scenes/NIvel10.unity
     guid: 08bf36b684fc1554e85fe39b8d9c8ca2
   - enabled: 1
     path: Assets/Scenes/Poblado.unity
     guid: 9b48d97780193fc4ba8750cce55b486b
   - enabled: 1
-    path: Assets/Scenes/NivelMuestra.unity
+    path: Assets/Scenes/Nivel3.unity
     guid: 83edd28cc5501fe49bfaf87766332eb0
   - enabled: 1
     path: Assets/Scenes/MenuJuego.unity
     guid: c12485aab208f3b4395fd09a79c4c2ff
   - enabled: 1
-    path: Assets/Scenes/Nivel Aldea.unity
+    path: Assets/Scenes/Nivel1.unity
     guid: e07f2e400a2d7164988fa11609016066
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 9ed8d38d109317a4b96aad88f5e89701,
