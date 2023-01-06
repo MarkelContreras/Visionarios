@@ -37,6 +37,10 @@ public class MoveMetalObject : MonoBehaviour {
         if (rb != null) rb.useGravity = true;
     }
 
+    public bool MetalMoves() {
+        return rb != null;
+    }
+
     void FixedUpdate() {
         if (grabber != null) {
             if (!justGrabbed) {

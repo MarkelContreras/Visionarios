@@ -7,6 +7,8 @@ public class GrabManager : MonoBehaviour {
 
     private static MoveMetalObject target = null;
     private static Vector3 minBackForceMult = Vector3.zero;
+    private static float mult = 0.0f;
+    private static MoveMetalObject obj = null;
 
     public InputActionAsset inputActionAsset;
     public PlayerMovement playerController;
@@ -15,9 +17,7 @@ public class GrabManager : MonoBehaviour {
     public float minRange = 0.3f;
     public float speed = 1.0f;
 
-    private MoveMetalObject obj = null;
     private InputAction metalAction;
-    private float mult = 0.0f;
 
     public static void Target(MoveMetalObject obj) {
         target = obj;
@@ -29,6 +29,14 @@ public class GrabManager : MonoBehaviour {
 
     public static Vector3 GetMinBackForce() {
         return minBackForceMult;
+    }
+
+    public static MoveMetalObject GetMovingMetal() {
+        return obj;
+    }
+
+    public static float GetGrabForce() {
+        return mult;
     }
 
     private void Awake() {
@@ -70,7 +78,7 @@ public class GrabManager : MonoBehaviour {
             //     v = comp - dir;
             // }
             // obj.UpdateGrab(v);
-            if ((dist >= maxRange && mult > 0) || (dist <= minRange && mult < 0)) {
+            if (dist >= maxRange && mult > 0) {
                 obj.UpdateGrab(Vector3.zero);
             } else {
                 obj.UpdateGrab(dir.normalized * mult * speed);

@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour {
     private Vector3 pendingVelocity = new Vector3(0, 0, 0);
     private Vector3 walkVelocity = new Vector3(0, 0, 0);
     private Vector2 moveDir = new Vector2(0, 0);
+    private HashSet<GameObject> triggerObjects = new HashSet<GameObject>();
 
     private void Awake() {
         inputActionAsset.Enable();
@@ -27,7 +28,6 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     public void AddVelocity(Vector3 velocity) {
-        Debug.Log(velocity);
         pendingVelocity += velocity;
     }
 
@@ -37,6 +37,14 @@ public class PlayerMovement : MonoBehaviour {
 
     private void Update() {
         moveDir = moveAction.ReadValue<Vector2>();
+    }
+
+    void OnTriggerEnter(Collider other) {
+        triggerObjects.Add(other.gameObject);
+    }
+
+    void OnTriggerExit(Collider other) {
+        triggerObjects.Remove(other.gameObject);
     }
 
     void FixedUpdate() {
@@ -49,7 +57,11 @@ public class PlayerMovement : MonoBehaviour {
             v.z = 0;
         }
         if (pendingVelocity != Vector3.zero) {
-            v = pendingVelocity;
+            MoveMetalObject metal = GrabManager.GetMovingMetal();
+            if (metal != null) {
+                if (!triggerObjects.Contains(metal.gameObject) || !metal.MetalMoves() || !(GrabManager.GetGrabForce() < 0))
+                    v = pendingVelocity;
+            }
             pendingVelocity = Vector3.zero;
         } else {
             v += Physics.gravity * Time.fixedDeltaTime;
