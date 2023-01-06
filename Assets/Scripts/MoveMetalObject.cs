@@ -49,13 +49,7 @@ public class MoveMetalObject : MonoBehaviour {
                 grabber.AddVelocity(backForce);
             }
             justGrabbed = false;
-            if (rb != null)  {
-                if (grabingSpeed != Vector3.zero) {
-                    rb.velocity += grabingSpeed;
-                } else {
-                    rb.velocity = grabingSpeed;
-                }
-            }
+            if (rb != null) rb.velocity = grabingSpeed;
         }
     }
 
