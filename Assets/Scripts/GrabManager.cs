@@ -70,7 +70,10 @@ public class GrabManager : MonoBehaviour {
             //     v = comp - dir;
             // }
             // obj.UpdateGrab(v);
-            if ((dist >= maxRange && mult > 0) || (dist <= minRange && mult < 0)) {
+            if (dist > maxRange) {
+                obj.Release();
+                obj = null;
+            } else if (dist <= minRange && mult < 0) {
                 obj.UpdateGrab(Vector3.zero);
             } else {
                 obj.UpdateGrab(dir.normalized * mult * speed);

@@ -49,7 +49,7 @@ public class PlayerMovement : MonoBehaviour {
             v.z = 0;
         }
         if (pendingVelocity != Vector3.zero) {
-            v = pendingVelocity;
+            v += pendingVelocity;
             pendingVelocity = Vector3.zero;
         }
         v += Physics.gravity * Time.fixedDeltaTime;
