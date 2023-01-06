@@ -569,7 +569,7 @@ MonoBehaviour:
   inputActionAsset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
   playerController: {fileID: 967251139701032850}
-  minBackForce: {x: 2, y: 2, z: 2}
+  minBackForce: {x: 0, y: 0, z: 0}
   maxRange: 30
   minRange: 2
   speed: 7

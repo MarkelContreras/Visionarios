@@ -27,6 +27,7 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     public void AddVelocity(Vector3 velocity) {
+        Debug.Log(velocity);
         pendingVelocity += velocity;
     }
 
@@ -42,7 +43,6 @@ public class PlayerMovement : MonoBehaviour {
         this.inGround = Physics.CheckSphere(this.floorDetector.position, this.floorDistance, this.floor);
         Vector3 v = GetVelocity() - walkVelocity;
         lastPos = transform.position;
-        v += Physics.gravity * Time.fixedDeltaTime;
         if (inGround) {
             v.x = 0;
             v.y = 0;
@@ -51,8 +51,9 @@ public class PlayerMovement : MonoBehaviour {
         if (pendingVelocity != Vector3.zero) {
             v = pendingVelocity;
             pendingVelocity = Vector3.zero;
+        } else {
+            v += Physics.gravity * Time.fixedDeltaTime;
         }
-        v += Physics.gravity * Time.fixedDeltaTime;
         walkVelocity = (Quaternion.Euler(0, camera.rotation.eulerAngles.y, 0) * new Vector3(moveDir.x, 0, moveDir.y)) * speed;
         this.controller.Move((v + walkVelocity) * Time.fixedDeltaTime);
     }
