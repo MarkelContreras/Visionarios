@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SelectorNiveles1.unity
     guid: 733aaca727fa5a446ac6d76606148a9c
   - enabled: 1
-    path: Assets/Scenes/NIvel10.unity
+    path: Assets/Scenes/NIvel8.unity
     guid: 08bf36b684fc1554e85fe39b8d9c8ca2
   - enabled: 1
     path: Assets/Scenes/Poblado.unity
