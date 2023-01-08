@@ -21,6 +21,7 @@ public class GrabManager : MonoBehaviour {
     public CoinSpawner coinSpawner;
     public XRRayInteractor xrInteractor;
 
+    private GameObject grabPoint;
     private InputAction metalAction;
     private bool coinSpawned = false;
 
@@ -70,17 +71,27 @@ public class GrabManager : MonoBehaviour {
                         coinSpawned = true;
                         obj = coinSpawner.SpawnCoin();
                         obj.Grab(playerController);
+                        grabPoint = new GameObject("GrabPoint");
+                        grabPoint.transform.position = obj.gameObject.transform.position;
+                        grabPoint.transform.parent = obj.gameObject.transform;
                     }
                 } else if (target != null) {
                     Vector3 dir = target.transform.position - transform.position;
                     if (dir.magnitude <= maxRange) {
+                        RaycastHit hit;
+                        xrInteractor.TryGetCurrent3DRaycastHit(out hit);
                         obj = target;
                         obj.Grab(playerController);
+                        grabPoint = new GameObject("GrabPoint");
+                        grabPoint.transform.position = hit.point;
+                        grabPoint.transform.parent = obj.gameObject.transform;
                     }
                 }
             }
         } else if (obj != null) {
+            Destroy(grabPoint);
             obj.Release();
+            grabPoint = null;
             obj = null;
         } else {
             coinSpawned = false;
@@ -89,12 +100,15 @@ public class GrabManager : MonoBehaviour {
 
     void FixedUpdate() {
         if (obj != null) {
-            Vector3 dir = obj.transform.position - transform.position;
+            Vector3 dir = grabPoint.transform.position - transform.position;
+            float step = mult * speed;
             float dist = dir.magnitude;
-            if ((dist >= maxRange && mult > 0) || (obj.MetalMoves() && mult < 0 && dist <= minRange)) {
-                obj.UpdateGrab(Vector3.zero);
+            if (dist >= maxRange && mult > 0) {
+                obj.UpdateGrab(Vector3.zero, false);
+            } else if (obj.MetalMoves() && mult < 0 && dist <= Mathf.Abs((step * 1) * Time.fixedDeltaTime)) {
+                obj.UpdateGrab(Vector3.zero, true);
             } else {
-                obj.UpdateGrab(dir.normalized * mult * speed);
+                obj.UpdateGrab(dir.normalized * step, false);
             }
         }
     }

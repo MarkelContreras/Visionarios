@@ -39,12 +39,16 @@ public class PlayerMovement : MonoBehaviour {
         moveDir = moveAction.ReadValue<Vector2>();
     }
 
-    void OnTriggerEnter(Collider other) {
+    public void MetalNearEnter(GameObject other) {
         triggerObjects.Add(other.gameObject);
     }
 
-    void OnTriggerExit(Collider other) {
+    public void MetalNearExit(GameObject other) {
         triggerObjects.Remove(other.gameObject);
+    }
+
+    public bool MetalNear() {
+        return triggerObjects.Contains(GrabManager.GetMovingMetal().gameObject);
     }
 
     void FixedUpdate() {
@@ -59,13 +63,14 @@ public class PlayerMovement : MonoBehaviour {
         if (pendingVelocity != Vector3.zero) {
             MoveMetalObject metal = GrabManager.GetMovingMetal();
             if (metal != null) {
-                if (!triggerObjects.Contains(metal.gameObject) || !metal.MetalMoves() || !(GrabManager.GetGrabForce() < 0))
+                if (!MetalNear() || !metal.MetalMoves() || !(GrabManager.GetGrabForce() < 0))
                     v = pendingVelocity;
             }
             pendingVelocity = Vector3.zero;
         } else {
-            v += Physics.gravity * Time.fixedDeltaTime;
+            
         }
+        v += Physics.gravity * Time.fixedDeltaTime;
         walkVelocity = (Quaternion.Euler(0, camera.rotation.eulerAngles.y, 0) * new Vector3(moveDir.x, 0, moveDir.y)) * speed;
         this.controller.Move((v + walkVelocity) * Time.fixedDeltaTime);
     }

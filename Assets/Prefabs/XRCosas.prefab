@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 967251138055047261}
   - component: {fileID: 967251138055047262}
   - component: {fileID: 967251138055047263}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: LeftHand Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -542,7 +542,7 @@ GameObject:
   - component: {fileID: 967251138617100339}
   - component: {fileID: 967251138617100338}
   - component: {fileID: 5286828895559456811}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Grabber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -557,7 +557,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 967251138617100340}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.94}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -581,7 +581,7 @@ MonoBehaviour:
   playerController: {fileID: 967251139701032850}
   minBackForce: {x: 0, y: 0, z: 0}
   maxRange: 30
-  minRange: 0
+  minRange: 0.1
   speed: 7
   coinSpawner: {fileID: 5286828895559456811}
   xrInteractor: {fileID: 967251138055047261}
@@ -612,7 +612,7 @@ GameObject:
   - component: {fileID: 967251138652606993}
   - component: {fileID: 967251138652606996}
   - component: {fileID: 967251138652606995}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -800,7 +800,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 967251138699745935}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Camera Offset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -835,7 +835,7 @@ GameObject:
   m_Component:
   - component: {fileID: 967251139457929979}
   - component: {fileID: 967251139457929927}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: RightHand Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1093,8 +1093,7 @@ GameObject:
   - component: {fileID: 967251139701032852}
   - component: {fileID: 967251139701032850}
   - component: {fileID: 967251139701032851}
-  - component: {fileID: 2455992778183361442}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: XR Origin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1189,20 +1188,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!136 &2455992778183361442
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 967251139701032855}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 1
-  m_Height: 3
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &967251139792779822
 GameObject:
   m_ObjectHideFlags: 0
@@ -1212,7 +1197,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 967251139792779821}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: FloorDetector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
