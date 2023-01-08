@@ -12,7 +12,7 @@ public class CoinSpawner : MonoBehaviour {
         if (lastCoin != null) {
             Destroy(lastCoin);
         }
-        lastCoin = Instantiate(coinPrefab, transform);
+        lastCoin = Instantiate(coinPrefab, transform.position, transform.rotation);
         return lastCoin.GetComponent<MoveMetalObject>();
     }
 
