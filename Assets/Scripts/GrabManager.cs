@@ -9,6 +9,7 @@ public class GrabManager : MonoBehaviour {
     private static Vector3 minBackForceMult = Vector3.zero;
     private static float mult = 0.0f;
     private static MoveMetalObject obj = null;
+    private static bool shoudlSpawnCoin = true;
 
     public InputActionAsset inputActionAsset;
     public PlayerMovement playerController;
@@ -16,8 +17,10 @@ public class GrabManager : MonoBehaviour {
     public float maxRange = 10.0f;
     public float minRange = 0.3f;
     public float speed = 1.0f;
+    public CoinSpawner coinSpawner;
 
     private InputAction metalAction;
+    private bool coinSpawned = false;
 
     public static void Target(MoveMetalObject obj) {
         target = obj;
@@ -25,6 +28,14 @@ public class GrabManager : MonoBehaviour {
 
     public static void Untarget() {
         target = null;
+    }
+
+    public static void TargetCoinSpawner() {
+        shoudlSpawnCoin = true;
+    }
+
+    public static void UntargetCoinSpawner() {
+        shoudlSpawnCoin = false;
     }
 
     public static Vector3 GetMinBackForce() {
@@ -48,16 +59,26 @@ public class GrabManager : MonoBehaviour {
         mult = metalAction.ReadValue<float>();
         minBackForceMult = minBackForce * Mathf.Abs(mult);
         if (mult != 0 ) {
-            if (target != null && obj == null) {
-                Vector3 dir = target.transform.position - transform.position;
-                if (dir.magnitude <= maxRange) {
-                    obj = target;
-                    obj.Grab(playerController);
+            if (obj == null) {
+                if (shoudlSpawnCoin) {
+                    if (mult < 0 && !coinSpawned) {
+                        coinSpawned = true;
+                        obj = coinSpawner.SpawnCoin();
+                    }
+                } else if (target != null) {
+                    Vector3 dir = target.transform.position - transform.position;
+                    if (dir.magnitude <= maxRange) {
+                        obj = target;
+                        obj.Grab(playerController);
+                    }
                 }
             }
+            
         } else if (obj != null) {
             obj.Release();
             obj = null;
+        } else {
+            coinSpawned = false;
         }
     }
 
@@ -65,19 +86,6 @@ public class GrabManager : MonoBehaviour {
         if (obj != null) {
             Vector3 dir = obj.transform.position - transform.position;
             float dist = dir.magnitude;
-            // Vector3 v = dir.normalized * mult * speed;
-            // Vector3 comp = obj.transform.position + v;
-            // float newDist = (comp - transform.position).magnitude;
-            // if (newDist > maxRange) {
-            //     Debug.Log("Far");
-            //     comp *= (maxRange / newDist);
-            //     v = comp - dir;
-            // } else if (newDist < minRange) {
-            //     Debug.Log("Near");
-            //     comp *= (minRange / newDist);
-            //     v = comp - dir;
-            // }
-            // obj.UpdateGrab(v);
             if (dist >= maxRange && mult > 0) {
                 obj.UpdateGrab(Vector3.zero);
             } else {
