@@ -312,7 +312,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 55
   m_RaycastTriggerInteraction: 1
-  m_HitClosestOnly: 0
+  m_HitClosestOnly: 1
   m_HoverToSelect: 0
   m_HoverTimeToSelect: 0.5
   m_EnableUIInteraction: 1
@@ -1172,7 +1172,6 @@ MonoBehaviour:
   floor:
     serializedVersion: 2
     m_Bits: 55
-  near: {fileID: 183351633387973667}
 --- !u!143 &967251139701032851
 CharacterController:
   m_ObjectHideFlags: 0
