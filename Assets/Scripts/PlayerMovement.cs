@@ -19,7 +19,6 @@ public class PlayerMovement : MonoBehaviour {
     private Vector3 pendingVelocity = new Vector3(0, 0, 0);
     private Vector3 walkVelocity = new Vector3(0, 0, 0);
     private Vector2 moveDir = new Vector2(0, 0);
-    private HashSet<GameObject> triggerObjects = new HashSet<GameObject>();
 
     private void Awake() {
         inputActionAsset.Enable();
@@ -39,38 +38,21 @@ public class PlayerMovement : MonoBehaviour {
         moveDir = moveAction.ReadValue<Vector2>();
     }
 
-    public void MetalNearEnter(GameObject other) {
-        triggerObjects.Add(other.gameObject);
-    }
-
-    public void MetalNearExit(GameObject other) {
-        triggerObjects.Remove(other.gameObject);
-    }
-
-    public bool MetalNear() {
-        return triggerObjects.Contains(GrabManager.GetMovingMetal().gameObject);
-    }
-
     void FixedUpdate() {
         this.inGround = Physics.CheckSphere(this.floorDetector.position, this.floorDistance, this.floor);
         Vector3 v = GetVelocity() - walkVelocity;
         lastPos = transform.position;
-        if (inGround) {
+        if (inGround || (GrabManager.GetMovingMetal() != null && !GrabManager.GetMovingMetal().MetalMoves())) {
             v.x = 0;
             v.y = 0;
             v.z = 0;
         }
         if (pendingVelocity != Vector3.zero) {
-            MoveMetalObject metal = GrabManager.GetMovingMetal();
-            if (metal != null) {
-                if (!MetalNear() || !metal.MetalMoves() || !(GrabManager.GetGrabForce() < 0))
-                    v = pendingVelocity;
-            }
+                v = pendingVelocity;
             pendingVelocity = Vector3.zero;
-        } else {
-            
+        } else if (GrabManager.GetMovingMetal() == null || GrabManager.GetMovingMetal().MetalMoves()) {
+            v += Physics.gravity * Time.fixedDeltaTime;
         }
-        v += Physics.gravity * Time.fixedDeltaTime;
         walkVelocity = (Quaternion.Euler(0, camera.rotation.eulerAngles.y, 0) * new Vector3(moveDir.x, 0, moveDir.y)) * speed;
         this.controller.Move((v + walkVelocity) * Time.fixedDeltaTime);
     }

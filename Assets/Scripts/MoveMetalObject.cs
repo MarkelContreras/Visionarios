@@ -10,11 +10,9 @@ public class MoveMetalObject : MonoBehaviour {
     private Vector3 grabingSpeed;
     private bool near = false;
     private Vector3 lastGrabbingSpeed = Vector3.zero;
-    private int oldLayer;
 
     void Awake() {
         rb = GetComponent<Rigidbody>();
-        oldLayer = gameObject.layer;
     }
 
     public void HoverEnter() {
@@ -27,10 +25,8 @@ public class MoveMetalObject : MonoBehaviour {
 
     public void Grab(PlayerMovement cont) {
         grabber = cont;
-        oldLayer = gameObject.layer;
-        if (rb != null) {
+        if (MetalMoves()) {
             lastGrabbingSpeed = rb.velocity;
-            gameObject.layer = 7; //Metal ignore
             rb.useGravity = false;
         } else {
             lastGrabbingSpeed = Vector3.zero;
@@ -44,8 +40,7 @@ public class MoveMetalObject : MonoBehaviour {
 
     public void Release() {
         grabber = null;
-        gameObject.layer = oldLayer;
-        if (rb != null) {
+        if (MetalMoves()) {
             rb.useGravity = true;
             if (near) rb.velocity = Vector3.zero;
         }
@@ -53,20 +48,22 @@ public class MoveMetalObject : MonoBehaviour {
     }
 
     public bool MetalMoves() {
-        return rb != null;
+        return !rb.isKinematic;
     }
 
     void FixedUpdate() {
         if (grabber != null) {
-            Vector3 backForce = -lastGrabbingSpeed;
-            if (rb != null) backForce += rb.velocity;
-            Vector3 minBackForce = GrabManager.GetMinBackForce();
-            if (Mathf.Abs(backForce.x) < minBackForce.x) backForce.x = 0;
-            if (Mathf.Abs(backForce.y) < minBackForce.z) backForce.y = 0;
-            if (Mathf.Abs(backForce.z) < minBackForce.y) backForce.z = 0;
-            grabber.AddVelocity(backForce);
+            if (!MetalMoves() || !near) {
+                Vector3 backForce = -lastGrabbingSpeed;
+                if (MetalMoves()) backForce += rb.velocity;
+                Vector3 minBackForce = GrabManager.GetMinBackForce();
+                if (Mathf.Abs(backForce.x) < minBackForce.x) backForce.x = 0;
+                if (Mathf.Abs(backForce.y) < minBackForce.z) backForce.y = 0;
+                if (Mathf.Abs(backForce.z) < minBackForce.y) backForce.z = 0;
+                grabber.AddVelocity(backForce);
+            }
             lastGrabbingSpeed = grabingSpeed;
-            if (rb != null) {
+            if (MetalMoves()) {
                 rb.velocity = grabingSpeed;
                 if (near) rb.angularVelocity = Vector3.zero;
             }

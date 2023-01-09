@@ -18,12 +18,14 @@ public class GrabManager : MonoBehaviour {
     public float maxRange = 10.0f;
     public float minRange = 0.05f;
     public float speed = 1.0f;
+    public MetalNearPlayer near;
     public CoinSpawner coinSpawner;
     public XRRayInteractor xrInteractor;
 
     private GameObject grabPoint;
     private InputAction metalAction;
     private bool coinSpawned = false;
+    private int objOldLayer;
 
     public static void Target(MoveMetalObject obj) {
         target = obj;
@@ -47,6 +49,10 @@ public class GrabManager : MonoBehaviour {
 
     public static MoveMetalObject GetMovingMetal() {
         return obj;
+    }
+
+    public static MoveMetalObject GetTargetMetal() {
+        return target;
     }
 
     public static float GetGrabForce() {
@@ -74,10 +80,12 @@ public class GrabManager : MonoBehaviour {
                         grabPoint = new GameObject("GrabPoint");
                         grabPoint.transform.position = obj.gameObject.transform.position;
                         grabPoint.transform.parent = obj.gameObject.transform;
+                        objOldLayer = obj.gameObject.layer;
+                        obj.gameObject.layer = 7;
                     }
                 } else if (target != null) {
                     Vector3 dir = target.transform.position - transform.position;
-                    if (dir.magnitude <= maxRange) {
+                    if (dir.magnitude <= maxRange && (!target.MetalMoves() || !near.IsNearTarget() || mult > 0)) {
                         RaycastHit hit;
                         xrInteractor.TryGetCurrent3DRaycastHit(out hit);
                         obj = target;
@@ -85,10 +93,15 @@ public class GrabManager : MonoBehaviour {
                         grabPoint = new GameObject("GrabPoint");
                         grabPoint.transform.position = hit.point;
                         grabPoint.transform.parent = obj.gameObject.transform;
+                        if (obj.MetalMoves()) {
+                            objOldLayer = obj.gameObject.layer;
+                            obj.gameObject.layer = 7;
+                        }
                     }
                 }
             }
         } else if (obj != null) {
+            if (obj.MetalMoves()) near.RestoreLayer(obj.gameObject, objOldLayer);
             Destroy(grabPoint);
             obj.Release();
             grabPoint = null;
@@ -105,10 +118,12 @@ public class GrabManager : MonoBehaviour {
             float dist = dir.magnitude;
             if (dist >= maxRange && mult > 0) {
                 obj.UpdateGrab(Vector3.zero, false);
-            } else if (obj.MetalMoves() && mult < 0 && dist <= Mathf.Abs((step * 1) * Time.fixedDeltaTime)) {
+            } else if (mult < 0 && ((obj.MetalMoves() && dist <= Mathf.Abs((step) * Time.fixedDeltaTime)) || (!obj.MetalMoves() && near.IsNearGrabbed()))) {
                 obj.UpdateGrab(Vector3.zero, true);
+                Debug.Log("Near");
             } else {
                 obj.UpdateGrab(dir.normalized * step, false);
+                Debug.Log("far");
             }
         }
     }
