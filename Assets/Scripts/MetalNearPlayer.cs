@@ -8,12 +8,10 @@ public class MetalNearPlayer : MonoBehaviour {
     private Dictionary<GameObject, int> layersToRestore = new Dictionary<GameObject, int>();
 
     void OnTriggerEnter(Collider other) {
-        Debug.Log("enter");
         triggerObjects.Add(other.gameObject);
     }
 
     void OnTriggerExit(Collider other) {
-        Debug.Log("exit");
         triggerObjects.Remove(other.gameObject);
         if (layersToRestore.ContainsKey(other.gameObject)) {
             other.gameObject.layer = layersToRestore[other.gameObject];
