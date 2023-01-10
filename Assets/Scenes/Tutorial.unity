@@ -2731,7 +2731,7 @@ GameObject:
   - component: {fileID: 466285111}
   - component: {fileID: 466285110}
   - component: {fileID: 466285109}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2806,7 +2806,7 @@ MonoBehaviour:
   - {fileID: 1071795894}
   - {fileID: 1399662236}
   lastLevelPlayButton: {fileID: 1110418774}
-  character: {fileID: 1831641341}
+  character: {fileID: 1831641342}
   menuPosition: {fileID: 2056610480}
 --- !u!65 &466285110
 BoxCollider:
@@ -13682,12 +13682,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!143 &1831641341 stripped
-CharacterController:
-  m_CorrespondingSourceObject: {fileID: 967251139701032851, guid: 573aeb5bb3938994f8a658a7e8b34b79,
+--- !u!114 &1831641342 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 967251139701032850, guid: 573aeb5bb3938994f8a658a7e8b34b79,
     type: 3}
   m_PrefabInstance: {fileID: 1086723550}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cb48ef872bd387a9b67e080d5526999, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1863934825
 GameObject:
   m_ObjectHideFlags: 0
@@ -14776,7 +14782,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2056610479}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 48.42, y: 26.06, z: -43}
+  m_LocalPosition: {x: 48.42, y: 29.169, z: -43}
   m_LocalScale: {x: 1.2386, y: 2.6806998, z: 1.2386}
   m_ConstrainProportionsScale: 0
   m_Children: []

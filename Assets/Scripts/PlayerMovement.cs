@@ -34,6 +34,14 @@ public class PlayerMovement : MonoBehaviour {
         return (transform.position - lastPos) / Time.fixedDeltaTime;
     }
 
+    public void Warp(Transform t) {
+        controller.enabled = false;
+        controller.transform.position = t.position;
+        controller.transform.rotation = t.rotation;
+        controller.enabled = true;
+        lastPos = t.position;
+    }
+
     private void Update() {
         moveDir = moveAction.ReadValue<Vector2>();
     }

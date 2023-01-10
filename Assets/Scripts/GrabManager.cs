@@ -120,10 +120,8 @@ public class GrabManager : MonoBehaviour {
                 obj.UpdateGrab(Vector3.zero, false);
             } else if (mult < 0 && ((obj.MetalMoves() && dist <= Mathf.Abs((step) * Time.fixedDeltaTime)) || (!obj.MetalMoves() && near.IsNearGrabbed()))) {
                 obj.UpdateGrab(Vector3.zero, true);
-                Debug.Log("Near");
             } else {
                 obj.UpdateGrab(dir.normalized * step, false);
-                Debug.Log("far");
             }
         }
     }

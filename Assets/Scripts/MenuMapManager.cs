@@ -11,7 +11,7 @@ public class MenuMapManager : MonoBehaviour
     public GameObject[] scrollLoreImages;
     public GameObject[] scrollLoreTexts;
     public GameObject lastLevelPlayButton;
-    public CharacterController character;
+    public PlayerMovement character;
     public Transform menuPosition;
 
     // Start is called before the first frame update
@@ -39,10 +39,14 @@ public class MenuMapManager : MonoBehaviour
 
     void Start() {
         if (GameData.Get().tutorialDone) {
-            character.enabled = false;
-            character.transform.position = menuPosition.position;
-            character.transform.rotation = menuPosition.rotation;
-            character.enabled = true;
+            character.Warp(menuPosition);
+        }
+    }
+
+    void OnTriggerEnter(Collider other) {
+        if (other.gameObject == character.gameObject) {
+            GameData.Get().tutorialDone = true;
+            GameData.Save();
         }
     }
 }
