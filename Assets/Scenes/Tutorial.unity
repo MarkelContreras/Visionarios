@@ -6306,6 +6306,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: XRCosas
       objectReference: {fileID: 0}
+    - target: {fileID: 6268990922692540443, guid: 573aeb5bb3938994f8a658a7e8b34b79,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6953021332329809819, guid: 573aeb5bb3938994f8a658a7e8b34b79,
         type: 3}
       propertyPath: m_RootOrder
