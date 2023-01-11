@@ -22,10 +22,15 @@ public class Enemy : MonoBehaviour {
     private bool chasing = false;
     private bool isDead = false;
     private bool attackable = false;
+    private bool attacking = false;
+    private bool justAttacked = false;
+    private List<Vector3> wonder = new List<Vector3>();
 
     public void Die() {
         animator.SetBool("Dead", true);
         gameObject.layer = 7; //Ignore collisions
+        isDead = true;
+        nav.destination = transform.position;
         LevelManager.EnemyKilled();
     }
 
@@ -46,13 +51,25 @@ public class Enemy : MonoBehaviour {
     }
 
     void Awake() {
-        if (wonderingDestinations.Length == 0) wonderingDestinations = new Transform[] {transform};
+        if (wonderingDestinations.Length == 0) {
+            GameObject obj = new GameObject(gameObject.name + "_wonder");
+            obj.transform.position = transform.position;
+            wonderingDestinations = new Transform[] {obj.transform};
+        }
+        if (wonderingDestinations.Length == 1) {
+            hasDestination = true;
+            destination = wonderingDestinations[0].position;
+        }
     }
 
     void Update() {
         if (isDead) return;
         attackable = InDistanceAndView(attackDistance);
-        Debug.Log(attackable);
+        justAttacked = false;
+        if (attacking) {
+            attacking = false;
+            justAttacked = true;
+        }
         if (!hasDestination) {
             if (wonderingDestinations.Length > 1 || chasing) {
                 if (chasing) wonderCount = -1;
@@ -66,7 +83,7 @@ public class Enemy : MonoBehaviour {
             if (canMove) {
                 nav.destination = destination;
             } else {
-                nav.destination = target.transform.position;
+                nav.destination = InDistanceAndView(attackDistance - 1f) ? transform.position : target.transform.position;
             }
             if (!nav.pathPending && canMove) {
                 if (nav.remainingDistance <= nav.stoppingDistance) {
@@ -86,12 +103,13 @@ public class Enemy : MonoBehaviour {
             hasDestination = true;
             chasing = true;
             canMove = false;
-            //Invoke(nameof(LastCheckAttack), 0.5f);
+            if (!justAttacked) attacking = true;
+            Invoke(nameof(LastCheckAttack), 0.8f);
         } else {
             canMove = true;
         }
         animator.SetBool("Walking", hasDestination);
         animator.SetBool("Running", chasing);
-        animator.SetBool("Attacking", attackable);
+        animator.SetBool("Attacking", attacking);
     }
 }
