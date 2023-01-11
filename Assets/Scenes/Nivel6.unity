@@ -30701,7 +30701,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1146412698}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 251.3, y: 0, z: 239.62}
+  m_LocalPosition: {x: 253.71, y: 5.75, z: 243.68}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44564,10 +44564,50 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.043
       objectReference: {fileID: 0}
+    - target: {fileID: 8265206807976557519, guid: 32e4090eebf4da94d80184fff513bad3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.2451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265206807976557519, guid: 32e4090eebf4da94d80184fff513bad3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.2451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265206807976557519, guid: 32e4090eebf4da94d80184fff513bad3,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.2451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265206807976557519, guid: 32e4090eebf4da94d80184fff513bad3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.079
+      objectReference: {fileID: 0}
     - target: {fileID: 8265206808523038932, guid: 32e4090eebf4da94d80184fff513bad3,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.107
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265206808523038933, guid: 32e4090eebf4da94d80184fff513bad3,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265206809017172444, guid: 32e4090eebf4da94d80184fff513bad3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3093
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265206809017172444, guid: 32e4090eebf4da94d80184fff513bad3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3093
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265206809017172444, guid: 32e4090eebf4da94d80184fff513bad3,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3093
       objectReference: {fileID: 0}
     - target: {fileID: 8265206809017172444, guid: 32e4090eebf4da94d80184fff513bad3,
         type: 3}
@@ -50698,17 +50738,17 @@ PrefabInstance:
     - target: {fileID: 5819518429142188113, guid: f8d8af62a5ca34b48a0ed704abce9482,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 265.51013
+      value: 260.09
       objectReference: {fileID: 0}
     - target: {fileID: 5819518429142188113, guid: f8d8af62a5ca34b48a0ed704abce9482,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.1583486
+      value: 9.601
       objectReference: {fileID: 0}
     - target: {fileID: 5819518429142188113, guid: f8d8af62a5ca34b48a0ed704abce9482,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 241.062
+      value: 267.01
       objectReference: {fileID: 0}
     - target: {fileID: 5819518429142188113, guid: f8d8af62a5ca34b48a0ed704abce9482,
         type: 3}
@@ -50752,8 +50792,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5819518429142188115, guid: f8d8af62a5ca34b48a0ed704abce9482,
         type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -76
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819518429142188115, guid: f8d8af62a5ca34b48a0ed704abce9482,
+        type: 3}
       propertyPath: m_LocalPosition.z
-      value: 20.1
+      value: 73.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8d8af62a5ca34b48a0ed704abce9482, type: 3}
@@ -56093,7 +56138,7 @@ GameObject:
   - component: {fileID: 2019453034}
   - component: {fileID: 2019453033}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Ambiente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56111,7 +56156,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2cbeb5b18dd7a4940801811781c0e0d8, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.6
+  m_Volume: 0.53
   m_Pitch: 1
   Loop: 1
   Mute: 0
