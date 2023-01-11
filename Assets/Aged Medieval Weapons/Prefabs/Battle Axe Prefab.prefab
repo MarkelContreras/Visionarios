@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 8721687755054939349}
   - component: {fileID: 4654655754752691527}
   - component: {fileID: 4156599621709463261}
+  - component: {fileID: 6152071166516877572}
   m_Layer: 0
   m_Name: Battle Axe Prefab
   m_TagString: Untagged
@@ -246,3 +247,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6152071166516877572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6428144754400928712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f9cebfd18030b49e897999ef7abbb59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

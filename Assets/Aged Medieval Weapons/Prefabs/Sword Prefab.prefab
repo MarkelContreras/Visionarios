@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 1107009608890025972}
   - component: {fileID: 7151622644350556011}
   - component: {fileID: 798075224780450077}
+  - component: {fileID: 3348524872510730362}
   m_Layer: 0
   m_Name: Sword Prefab
   m_TagString: Untagged
@@ -261,3 +262,15 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3348524872510730362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7971611001125329850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f9cebfd18030b49e897999ef7abbb59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
