@@ -110,7 +110,7 @@ NavMeshSettings:
     agentRadius: 0.5
     agentHeight: 2
     agentSlope: 45
-    agentClimb: 0.4
+    agentClimb: 0.75
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
@@ -123,7 +123,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: aeb0461530f3c46469a748629df9eeba, type: 2}
 --- !u!1 &9426545
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,6 +590,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass Patch 4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7970567918795744693, guid: 32d76070fd4329949a147d840b3a3fdf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32d76070fd4329949a147d840b3a3fdf, type: 3}
 --- !u!1001 &79912114
@@ -656,6 +661,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mushroom 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799145172504711529, guid: 18af26af61ee8234caa44dc89f89d5cf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4262527595393066397, guid: 18af26af61ee8234caa44dc89f89d5cf,
         type: 3}
@@ -725,6 +735,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
@@ -850,6 +865,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Branch 3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2982408054991540482, guid: fdd3446cc2b63d44fb714ae3ca931241,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdd3446cc2b63d44fb714ae3ca931241, type: 3}
 --- !u!1001 &121192203
@@ -908,6 +928,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mushroom 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799145172504711529, guid: 18af26af61ee8234caa44dc89f89d5cf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4262527595393066397, guid: 18af26af61ee8234caa44dc89f89d5cf,
         type: 3}
@@ -1488,6 +1513,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mushroom 3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4028192324028746158, guid: f9ba43b4d4d826f47aa990da47cf55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9ba43b4d4d826f47aa990da47cf55a1, type: 3}
 --- !u!1001 &181233031
@@ -2022,6 +2052,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Log
       objectReference: {fileID: 0}
+    - target: {fileID: 5157409133979067158, guid: 4b21e533c871dba4bb5c56ba22947be8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 8199249045260833029, guid: 4b21e533c871dba4bb5c56ba22947be8,
         type: 3}
       propertyPath: m_RootOrder
@@ -2443,6 +2478,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Branch 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2982408054991540482, guid: fdd3446cc2b63d44fb714ae3ca931241,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdd3446cc2b63d44fb714ae3ca931241, type: 3}
 --- !u!1001 &427769892
@@ -2844,6 +2884,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass Patch 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1746730771691942532, guid: 34153477ce4cf9246b4e6cda32b7153b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 6436433855146096649, guid: 34153477ce4cf9246b4e6cda32b7153b,
         type: 3}
       propertyPath: m_RootOrder
@@ -2967,6 +3012,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Plant 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8655872864704669980, guid: 15f2f61c86005324ab3630e8b1ba2747,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15f2f61c86005324ab3630e8b1ba2747, type: 3}
@@ -3409,6 +3459,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
       propertyPath: m_RootOrder
@@ -3809,6 +3864,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass Patch 5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6421639826793026830, guid: 93e3512978bcf1743819154cc039e1a7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 8843941601633688871, guid: 93e3512978bcf1743819154cc039e1a7,
         type: 3}
       propertyPath: m_RootOrder
@@ -4096,6 +4156,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mushroom 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4028192324028746158, guid: f9ba43b4d4d826f47aa990da47cf55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9ba43b4d4d826f47aa990da47cf55a1, type: 3}
 --- !u!1001 &634221913
@@ -4339,6 +4404,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant 3
       objectReference: {fileID: 0}
+    - target: {fileID: 51956900919061627, guid: 64ca9e302d16490429d2a0f349d72095,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 2022696646605473563, guid: 64ca9e302d16490429d2a0f349d72095,
         type: 3}
       propertyPath: m_RootOrder
@@ -4463,6 +4533,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stump 2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8293685147537449210, guid: 89c243b5404a4554985c1d903093fa00,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89c243b5404a4554985c1d903093fa00, type: 3}
 --- !u!1001 &661980499
@@ -4476,6 +4551,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mushroom 2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799145172504711529, guid: 18af26af61ee8234caa44dc89f89d5cf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4262527595393066397, guid: 18af26af61ee8234caa44dc89f89d5cf,
         type: 3}
@@ -4714,6 +4794,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4703040221364307242, guid: 30cd4b8a989daaa4fbb273ee70bf99f6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 8233102405603228788, guid: 30cd4b8a989daaa4fbb273ee70bf99f6,
         type: 3}
       propertyPath: m_RootOrder
@@ -4924,6 +5009,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass Patch 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2485608032364271217, guid: d483cda7cf88d5c43a719c90483764f1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d483cda7cf88d5c43a719c90483764f1, type: 3}
 --- !u!1001 &700463202
@@ -5083,6 +5173,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8655872864704669980, guid: 15f2f61c86005324ab3630e8b1ba2747,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15f2f61c86005324ab3630e8b1ba2747, type: 3}
 --- !u!1001 &703837127
@@ -5143,6 +5238,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grass Patch 5 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6421639826793026830, guid: 93e3512978bcf1743819154cc039e1a7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 8843941601633688871, guid: 93e3512978bcf1743819154cc039e1a7,
         type: 3}
@@ -5966,6 +6066,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stump 2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8293685147537449210, guid: 89c243b5404a4554985c1d903093fa00,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89c243b5404a4554985c1d903093fa00, type: 3}
 --- !u!4 &845390707 stripped
@@ -6087,6 +6192,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
@@ -6270,6 +6380,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
       propertyPath: m_RootOrder
@@ -6439,6 +6554,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Branch 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4451941183071688819, guid: 006e392d17557b045b1e173abb80f1e8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 006e392d17557b045b1e173abb80f1e8, type: 3}
 --- !u!1001 &912540106
@@ -6560,6 +6680,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
@@ -6723,6 +6848,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Plant 3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 51956900919061627, guid: 64ca9e302d16490429d2a0f349d72095,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 2022696646605473563, guid: 64ca9e302d16490429d2a0f349d72095,
         type: 3}
@@ -6945,6 +7075,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grass Patch 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6421639826793026830, guid: 93e3512978bcf1743819154cc039e1a7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 8843941601633688871, guid: 93e3512978bcf1743819154cc039e1a7,
         type: 3}
@@ -7363,6 +7498,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
       propertyPath: m_RootOrder
@@ -7507,6 +7647,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
       propertyPath: m_RootOrder
@@ -7590,6 +7735,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stump 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4375944474646908325, guid: 0c1dc9162f86dac488068fdcb3cf9715,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4757977171913630836, guid: 0c1dc9162f86dac488068fdcb3cf9715,
         type: 3}
@@ -7858,6 +8008,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant 3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 51956900919061627, guid: 64ca9e302d16490429d2a0f349d72095,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 2022696646605473563, guid: 64ca9e302d16490429d2a0f349d72095,
         type: 3}
       propertyPath: m_RootOrder
@@ -8083,6 +8238,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grass Patch 5 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6421639826793026830, guid: 93e3512978bcf1743819154cc039e1a7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 8843941601633688871, guid: 93e3512978bcf1743819154cc039e1a7,
         type: 3}
@@ -8430,6 +8590,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grass Patch 5 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6421639826793026830, guid: 93e3512978bcf1743819154cc039e1a7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 8843941601633688871, guid: 93e3512978bcf1743819154cc039e1a7,
         type: 3}
@@ -8945,6 +9110,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shield Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 7849274417867043450, guid: d0cdc779501f2b549bbc861e6a6d1894,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0cdc779501f2b549bbc861e6a6d1894, type: 3}
 --- !u!1001 &1238126943
@@ -8958,6 +9128,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Log (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157409133979067158, guid: 4b21e533c871dba4bb5c56ba22947be8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 8199249045260833029, guid: 4b21e533c871dba4bb5c56ba22947be8,
         type: 3}
@@ -9329,6 +9504,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
       propertyPath: m_RootOrder
@@ -9623,6 +9803,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stump 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 803495133056919301, guid: 284148a5985781342877af69bf326a2e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 7172418204356604479, guid: 284148a5985781342877af69bf326a2e,
         type: 3}
@@ -10363,6 +10548,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grass Patch 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7970567918795744693, guid: 32d76070fd4329949a147d840b3a3fdf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32d76070fd4329949a147d840b3a3fdf, type: 3}
@@ -11353,6 +11543,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Short Sword Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 8013872819141217780, guid: 6df56e191e1b763448089b614a1eda15,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6df56e191e1b763448089b614a1eda15, type: 3}
 --- !u!1 &1509746931
@@ -11491,6 +11686,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grass Patch 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1746730771691942532, guid: 34153477ce4cf9246b4e6cda32b7153b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 6436433855146096649, guid: 34153477ce4cf9246b4e6cda32b7153b,
         type: 3}
@@ -12050,6 +12250,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stump 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8293685147537449210, guid: 89c243b5404a4554985c1d903093fa00,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89c243b5404a4554985c1d903093fa00, type: 3}
 --- !u!1001 &1589741536
@@ -12063,6 +12268,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Flower 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867889463058203156, guid: f550c80a288252347bddcb7465dc52df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 5744031325333596112, guid: f550c80a288252347bddcb7465dc52df,
         type: 3}
@@ -12308,6 +12518,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Plant 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8655872864704669980, guid: 15f2f61c86005324ab3630e8b1ba2747,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15f2f61c86005324ab3630e8b1ba2747, type: 3}
@@ -12623,6 +12838,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
       propertyPath: m_RootOrder
@@ -12738,6 +12958,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
@@ -13451,6 +13676,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mushroom 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3585696103644926157, guid: c4e981a1c971f6242b943d74ed0d8a65,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 8782338472128659584, guid: c4e981a1c971f6242b943d74ed0d8a65,
         type: 3}
       propertyPath: m_RootOrder
@@ -13561,6 +13791,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Plant 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703040221364307242, guid: 30cd4b8a989daaa4fbb273ee70bf99f6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 8233102405603228788, guid: 30cd4b8a989daaa4fbb273ee70bf99f6,
         type: 3}
@@ -13723,6 +13958,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
@@ -14106,6 +14346,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grass Patch 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2485608032364271217, guid: d483cda7cf88d5c43a719c90483764f1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d483cda7cf88d5c43a719c90483764f1, type: 3}
@@ -14683,6 +14928,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant 3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 51956900919061627, guid: 64ca9e302d16490429d2a0f349d72095,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 2022696646605473563, guid: 64ca9e302d16490429d2a0f349d72095,
         type: 3}
       propertyPath: m_RootOrder
@@ -14805,6 +15055,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stump 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4375944474646908325, guid: 0c1dc9162f86dac488068fdcb3cf9715,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4757977171913630836, guid: 0c1dc9162f86dac488068fdcb3cf9715,
         type: 3}
@@ -15411,6 +15666,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass Patch 5 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6421639826793026830, guid: 93e3512978bcf1743819154cc039e1a7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 8843941601633688871, guid: 93e3512978bcf1743819154cc039e1a7,
         type: 3}
       propertyPath: m_RootOrder
@@ -16013,6 +16273,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stump 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8293685147537449210, guid: 89c243b5404a4554985c1d903093fa00,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89c243b5404a4554985c1d903093fa00, type: 3}
 --- !u!1001 &2079772723
@@ -16026,6 +16291,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
@@ -16152,6 +16422,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
