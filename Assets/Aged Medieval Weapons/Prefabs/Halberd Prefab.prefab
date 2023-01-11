@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 8347964315098262224}
   - component: {fileID: 1809424817069035062}
   - component: {fileID: 8379555220974969745}
+  - component: {fileID: 3385492244511546171}
   m_Layer: 0
   m_Name: Halberd Prefab
   m_TagString: Untagged
@@ -277,3 +278,15 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3385492244511546171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7042670675676008530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f9cebfd18030b49e897999ef7abbb59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

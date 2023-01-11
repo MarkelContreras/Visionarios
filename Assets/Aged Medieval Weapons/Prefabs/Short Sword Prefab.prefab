@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 6565064553399116404}
   - component: {fileID: 32885336101131933}
   - component: {fileID: 1643535382749894269}
+  - component: {fileID: 5374612162324886084}
   m_Layer: 0
   m_Name: Short Sword Prefab
   m_TagString: Untagged
@@ -260,3 +261,15 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5374612162324886084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8013872819141217780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f9cebfd18030b49e897999ef7abbb59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
