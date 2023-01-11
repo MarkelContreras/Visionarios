@@ -7382,7 +7382,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hola, pulsa ZR para empujar un metal y ZL para atraerlo
+  m_text: Hola, pulsa el trigger derecho para empujar un metal y el grip derecho
+    para atraerlo.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
