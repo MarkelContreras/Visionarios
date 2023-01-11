@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.015113503, g: 0.009046664, b: 0.014094996, a: 1}
+  m_IndirectSpecularColor: {r: 0.015194495, g: 0.008997394, b: 0.014068294, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -335,6 +335,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: smith (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8e087afc636a7f643a64e9a824233e88, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8e087afc636a7f643a64e9a824233e88, type: 3}
       propertyPath: m_RootOrder
       value: 74
@@ -419,6 +423,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant 3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 51956900919061627, guid: 64ca9e302d16490429d2a0f349d72095,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2022696646605473563, guid: 64ca9e302d16490429d2a0f349d72095,
         type: 3}
       propertyPath: m_RootOrder
@@ -487,6 +496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 75
@@ -550,6 +563,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -612,6 +629,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -681,6 +702,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
       propertyPath: m_Name
       value: market (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
       propertyPath: m_RootOrder
@@ -771,6 +796,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: smith (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8e087afc636a7f643a64e9a824233e88, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8e087afc636a7f643a64e9a824233e88, type: 3}
       propertyPath: m_RootOrder
       value: 79
@@ -855,6 +884,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
       propertyPath: m_RootOrder
@@ -927,6 +961,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -1142,6 +1180,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
       propertyPath: m_RootOrder
@@ -1215,6 +1258,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -1385,6 +1432,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: windmill
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c784118e8dac13548832e0d70372f14f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c784118e8dac13548832e0d70372f14f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: c784118e8dac13548832e0d70372f14f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c784118e8dac13548832e0d70372f14f, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -1509,6 +1568,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain
       objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
       propertyPath: m_RootOrder
@@ -1594,6 +1658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 117
@@ -1656,6 +1724,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -1802,6 +1874,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
       propertyPath: m_RootOrder
@@ -1882,6 +1959,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
@@ -2120,6 +2202,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 114
@@ -2214,6 +2300,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
       propertyPath: m_Name
       value: market (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
       propertyPath: m_RootOrder
@@ -2379,6 +2469,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: market (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
       propertyPath: m_RootOrder
       value: 78
@@ -2468,6 +2562,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tower_small (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 749452c483f72ef47acbba156497acfa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 749452c483f72ef47acbba156497acfa, type: 3}
       propertyPath: m_RootOrder
       value: 122
@@ -2556,6 +2654,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -2764,6 +2866,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 76
@@ -2826,6 +2932,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -2895,6 +3005,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (97)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -3041,6 +3155,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ceae2dc210e1e7e459a3eb0a6de39b4d, type: 3}
       propertyPath: m_Name
       value: barrack (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ceae2dc210e1e7e459a3eb0a6de39b4d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ceae2dc210e1e7e459a3eb0a6de39b4d, type: 3}
       propertyPath: m_RootOrder
@@ -3308,6 +3426,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tower_small (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 749452c483f72ef47acbba156497acfa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 749452c483f72ef47acbba156497acfa, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3370,6 +3492,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 686c3e7542d82a24cba72016aa7c9ba3, type: 3}
       propertyPath: m_Name
       value: warehouse (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 686c3e7542d82a24cba72016aa7c9ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 686c3e7542d82a24cba72016aa7c9ba3, type: 3}
       propertyPath: m_RootOrder
@@ -3459,7 +3585,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &300535283
 MonoBehaviour:
@@ -3512,6 +3638,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 686c3e7542d82a24cba72016aa7c9ba3, type: 3}
       propertyPath: m_Name
       value: warehouse (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 686c3e7542d82a24cba72016aa7c9ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 686c3e7542d82a24cba72016aa7c9ba3, type: 3}
       propertyPath: m_RootOrder
@@ -3595,6 +3725,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -3742,6 +3876,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 103
@@ -3824,6 +3962,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 749452c483f72ef47acbba156497acfa, type: 3}
       propertyPath: m_Name
       value: tower_small (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 749452c483f72ef47acbba156497acfa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 749452c483f72ef47acbba156497acfa, type: 3}
       propertyPath: m_RootOrder
@@ -3979,6 +4121,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
       propertyPath: m_RootOrder
@@ -4051,6 +4198,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
       propertyPath: m_Name
       value: market (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
       propertyPath: m_RootOrder
@@ -4336,6 +4487,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tower_small (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 749452c483f72ef47acbba156497acfa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 749452c483f72ef47acbba156497acfa, type: 3}
       propertyPath: m_RootOrder
       value: 36
@@ -4399,6 +4554,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
@@ -4473,6 +4633,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -4616,7 +4780,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &371944182
 BoxCollider:
@@ -4731,6 +4895,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -4920,6 +5088,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 749452c483f72ef47acbba156497acfa, type: 3}
       propertyPath: m_Name
       value: tower_small (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 749452c483f72ef47acbba156497acfa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 749452c483f72ef47acbba156497acfa, type: 3}
       propertyPath: m_RootOrder
@@ -5136,6 +5308,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -5198,6 +5374,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -5282,6 +5462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: house
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 81ae10d5415799d4db940c6fe498e861, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 81ae10d5415799d4db940c6fe498e861, type: 3}
       propertyPath: m_RootOrder
       value: 48
@@ -5364,6 +5548,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -5493,6 +5681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: slaughterhouse (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bb8c0e8eb3d69064a8ae10b5e0d62d8b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bb8c0e8eb3d69064a8ae10b5e0d62d8b, type: 3}
       propertyPath: m_RootOrder
       value: 80
@@ -5609,6 +5801,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -5798,6 +5994,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
       propertyPath: m_Name
       value: market (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
       propertyPath: m_RootOrder
@@ -6182,6 +6382,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -6321,6 +6525,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -6531,6 +6739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -6613,6 +6825,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -6975,6 +7191,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 87
@@ -7121,6 +7341,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: house (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 81ae10d5415799d4db940c6fe498e861, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 81ae10d5415799d4db940c6fe498e861, type: 3}
       propertyPath: m_RootOrder
       value: 70
@@ -7210,6 +7434,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
@@ -7434,6 +7663,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 50
@@ -7496,6 +7729,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -7673,6 +7910,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -7899,6 +8140,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -7976,6 +8221,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 91
@@ -8052,6 +8301,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -8450,6 +8703,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
       propertyPath: m_RootOrder
@@ -8538,6 +8796,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Plant 3 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 51956900919061627, guid: 64ca9e302d16490429d2a0f349d72095,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2022696646605473563, guid: 64ca9e302d16490429d2a0f349d72095,
         type: 3}
@@ -8739,6 +9002,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: smith (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8e087afc636a7f643a64e9a824233e88, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8e087afc636a7f643a64e9a824233e88, type: 3}
       propertyPath: m_RootOrder
       value: 72
@@ -8821,6 +9088,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 686c3e7542d82a24cba72016aa7c9ba3, type: 3}
       propertyPath: m_Name
       value: warehouse (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 686c3e7542d82a24cba72016aa7c9ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 686c3e7542d82a24cba72016aa7c9ba3, type: 3}
       propertyPath: m_RootOrder
@@ -8925,6 +9196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -8994,6 +9269,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 39
@@ -9056,6 +9335,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 686c3e7542d82a24cba72016aa7c9ba3, type: 3}
       propertyPath: m_Name
       value: warehouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 686c3e7542d82a24cba72016aa7c9ba3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 686c3e7542d82a24cba72016aa7c9ba3, type: 3}
       propertyPath: m_RootOrder
@@ -9271,6 +9554,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -9920,6 +10207,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 82
@@ -10064,6 +10355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 54
@@ -10140,6 +10435,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -10232,6 +10531,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 113
@@ -10294,6 +10597,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 81ae10d5415799d4db940c6fe498e861, type: 3}
       propertyPath: m_Name
       value: house (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 81ae10d5415799d4db940c6fe498e861, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 81ae10d5415799d4db940c6fe498e861, type: 3}
       propertyPath: m_RootOrder
@@ -10377,6 +10684,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (104)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -10579,6 +10890,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (109)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 115
@@ -10676,6 +10991,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Plant 3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 51956900919061627, guid: 64ca9e302d16490429d2a0f349d72095,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2022696646605473563, guid: 64ca9e302d16490429d2a0f349d72095,
         type: 3}
@@ -10803,6 +11123,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant 3 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 51956900919061627, guid: 64ca9e302d16490429d2a0f349d72095,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2022696646605473563, guid: 64ca9e302d16490429d2a0f349d72095,
         type: 3}
       propertyPath: m_RootOrder
@@ -10870,6 +11195,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8e087afc636a7f643a64e9a824233e88, type: 3}
       propertyPath: m_Name
       value: smith
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8e087afc636a7f643a64e9a824233e88, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8e087afc636a7f643a64e9a824233e88, type: 3}
       propertyPath: m_RootOrder
@@ -10953,6 +11282,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -11368,6 +11701,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 51
@@ -11430,6 +11767,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
       propertyPath: m_Name
       value: market
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
       propertyPath: m_RootOrder
@@ -11570,6 +11911,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -11768,6 +12113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -11845,6 +12194,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 119
@@ -11921,6 +12274,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -12004,6 +12361,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -12182,6 +12543,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -12258,6 +12623,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -12551,6 +12920,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant 3
       objectReference: {fileID: 0}
+    - target: {fileID: 51956900919061627, guid: 64ca9e302d16490429d2a0f349d72095,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2022696646605473563, guid: 64ca9e302d16490429d2a0f349d72095,
         type: 3}
       propertyPath: m_RootOrder
@@ -12709,6 +13083,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
       propertyPath: m_RootOrder
@@ -12788,6 +13167,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -12927,6 +13310,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 71
@@ -13060,6 +13447,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -13274,6 +13665,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 43
@@ -13359,6 +13754,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -13436,6 +13835,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Plant 3 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 51956900919061627, guid: 64ca9e302d16490429d2a0f349d72095,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2022696646605473563, guid: 64ca9e302d16490429d2a0f349d72095,
         type: 3}
@@ -13580,6 +13984,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
@@ -13864,6 +14273,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 84
@@ -13940,6 +14353,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 749452c483f72ef47acbba156497acfa, type: 3}
       propertyPath: m_Name
       value: tower_small (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 749452c483f72ef47acbba156497acfa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 749452c483f72ef47acbba156497acfa, type: 3}
       propertyPath: m_RootOrder
@@ -14239,6 +14656,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
       propertyPath: m_RootOrder
@@ -14408,6 +14830,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: smith (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8e087afc636a7f643a64e9a824233e88, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8e087afc636a7f643a64e9a824233e88, type: 3}
       propertyPath: m_RootOrder
       value: 54
@@ -14491,6 +14917,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 46
@@ -14559,6 +14989,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -14836,6 +15270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ironworks (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dcde1f44ae7793645b90074bc2c5871f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dcde1f44ae7793645b90074bc2c5871f, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -15003,6 +15441,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: market (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
       propertyPath: m_RootOrder
       value: 69
@@ -15106,6 +15548,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
@@ -15243,6 +15690,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 97
@@ -15319,6 +15770,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -15453,6 +15908,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (110)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -15592,6 +16051,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 106
@@ -15654,6 +16117,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -15967,6 +16434,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 90
@@ -16240,6 +16711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 86
@@ -16302,6 +16777,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 81ae10d5415799d4db940c6fe498e861, type: 3}
       propertyPath: m_Name
       value: house (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 81ae10d5415799d4db940c6fe498e861, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 81ae10d5415799d4db940c6fe498e861, type: 3}
       propertyPath: m_RootOrder
@@ -16480,6 +16959,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -16728,6 +17211,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 64
@@ -16812,6 +17299,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -16959,6 +17450,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (106)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 112
@@ -17026,7 +17521,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &1343423683
 BoxCollider:
@@ -17125,6 +17620,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
       propertyPath: m_RootOrder
@@ -17197,6 +17697,18 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c784118e8dac13548832e0d70372f14f, type: 3}
       propertyPath: m_Name
       value: windmill (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c784118e8dac13548832e0d70372f14f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c784118e8dac13548832e0d70372f14f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: c784118e8dac13548832e0d70372f14f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c784118e8dac13548832e0d70372f14f, type: 3}
       propertyPath: m_RootOrder
@@ -17326,6 +17838,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (94)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -17670,6 +18186,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 118
@@ -17752,6 +18272,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dcde1f44ae7793645b90074bc2c5871f, type: 3}
       propertyPath: m_Name
       value: ironworks (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dcde1f44ae7793645b90074bc2c5871f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dcde1f44ae7793645b90074bc2c5871f, type: 3}
       propertyPath: m_RootOrder
@@ -17951,6 +18475,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant 3 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 51956900919061627, guid: 64ca9e302d16490429d2a0f349d72095,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2022696646605473563, guid: 64ca9e302d16490429d2a0f349d72095,
         type: 3}
       propertyPath: m_RootOrder
@@ -18018,6 +18547,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -18169,7 +18702,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &1411422278
 BoxCollider:
@@ -18209,6 +18742,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -18278,7 +18815,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1413626721
 Transform:
@@ -18717,6 +19254,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain
       objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
       propertyPath: m_RootOrder
@@ -18784,6 +19326,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -18875,6 +19421,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -19119,6 +19669,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
       propertyPath: m_RootOrder
@@ -19255,6 +19810,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -19416,6 +19975,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 104
@@ -19492,6 +20055,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ceae2dc210e1e7e459a3eb0a6de39b4d, type: 3}
       propertyPath: m_Name
       value: barrack
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ceae2dc210e1e7e459a3eb0a6de39b4d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ceae2dc210e1e7e459a3eb0a6de39b4d, type: 3}
       propertyPath: m_RootOrder
@@ -19576,6 +20143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 93
@@ -19652,6 +20223,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -19801,6 +20376,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 63
@@ -19885,6 +20464,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -20158,6 +20741,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -20220,6 +20807,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -20297,6 +20888,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (102)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -20380,6 +20975,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -20572,6 +21171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 40
@@ -20732,6 +21335,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 94
@@ -20800,6 +21407,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
       propertyPath: m_Name
       value: market (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 515d5ee6ed53daa45974b3b9e180c1c6, type: 3}
       propertyPath: m_RootOrder
@@ -20982,6 +21593,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 67
@@ -21044,6 +21659,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -21237,6 +21856,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 81
@@ -21313,6 +21936,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -21396,6 +22023,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 53bcbe80f2d2a0b43987b394e46d45b2, type: 3}
       propertyPath: m_Name
       value: mine
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 53bcbe80f2d2a0b43987b394e46d45b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 53bcbe80f2d2a0b43987b394e46d45b2, type: 3}
       propertyPath: m_RootOrder
@@ -21500,6 +22131,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
@@ -21649,6 +22285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -21725,6 +22365,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8e087afc636a7f643a64e9a824233e88, type: 3}
       propertyPath: m_Name
       value: smith (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8e087afc636a7f643a64e9a824233e88, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8e087afc636a7f643a64e9a824233e88, type: 3}
       propertyPath: m_RootOrder
@@ -22048,6 +22692,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 101
@@ -22125,6 +22773,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 120
@@ -22201,6 +22853,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 749452c483f72ef47acbba156497acfa, type: 3}
       propertyPath: m_Name
       value: tower_small (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 749452c483f72ef47acbba156497acfa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 749452c483f72ef47acbba156497acfa, type: 3}
       propertyPath: m_RootOrder
@@ -22285,6 +22941,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
@@ -22595,6 +23256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 95
@@ -22671,6 +23336,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -22891,7 +23560,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1757302306
 MonoBehaviour:
@@ -22944,6 +23613,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bb8c0e8eb3d69064a8ae10b5e0d62d8b, type: 3}
       propertyPath: m_Name
       value: slaughterhouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bb8c0e8eb3d69064a8ae10b5e0d62d8b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bb8c0e8eb3d69064a8ae10b5e0d62d8b, type: 3}
       propertyPath: m_RootOrder
@@ -23035,6 +23708,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -23176,6 +23853,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 111
@@ -23296,6 +23977,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (101)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 107
@@ -23373,6 +24058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 105
@@ -23436,6 +24125,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
@@ -23663,6 +24357,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -23739,6 +24437,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -23914,6 +24616,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 61
@@ -24003,7 +24709,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &1825961771
 BoxCollider:
@@ -24043,6 +24749,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c034964186ba73843abf9c751bd0423a, type: 3}
       propertyPath: m_Name
       value: bakery (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c034964186ba73843abf9c751bd0423a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c034964186ba73843abf9c751bd0423a, type: 3}
       propertyPath: m_RootOrder
@@ -24132,7 +24842,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1848536364
 MonoBehaviour:
@@ -24185,6 +24895,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -24263,6 +24977,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -24340,6 +25058,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
@@ -24485,6 +25208,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -24921,6 +25648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ironworks (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dcde1f44ae7793645b90074bc2c5871f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dcde1f44ae7793645b90074bc2c5871f, type: 3}
       propertyPath: m_RootOrder
       value: 75
@@ -25106,6 +25837,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant 3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 51956900919061627, guid: 64ca9e302d16490429d2a0f349d72095,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2022696646605473563, guid: 64ca9e302d16490429d2a0f349d72095,
         type: 3}
       propertyPath: m_RootOrder
@@ -25174,6 +25910,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
@@ -25317,6 +26058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 56
@@ -25444,6 +26189,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -25600,6 +26349,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
       propertyPath: m_RootOrder
@@ -25733,6 +26487,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -25921,6 +26679,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
       propertyPath: m_RootOrder
@@ -25994,6 +26757,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 749452c483f72ef47acbba156497acfa, type: 3}
       propertyPath: m_Name
       value: tower_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 749452c483f72ef47acbba156497acfa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 749452c483f72ef47acbba156497acfa, type: 3}
       propertyPath: m_RootOrder
@@ -26370,6 +27137,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -26447,6 +27218,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050339514624016027, guid: 81d960fe44e3f6b46bcda7b24988e254,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7326308086656437384, guid: 81d960fe44e3f6b46bcda7b24988e254,
         type: 3}
@@ -26526,6 +27302,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -26678,6 +27458,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c034964186ba73843abf9c751bd0423a, type: 3}
       propertyPath: m_Name
       value: bakery
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c034964186ba73843abf9c751bd0423a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c034964186ba73843abf9c751bd0423a, type: 3}
       propertyPath: m_RootOrder
@@ -26836,6 +27620,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 53bcbe80f2d2a0b43987b394e46d45b2, type: 3}
       propertyPath: m_Name
       value: mine (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 53bcbe80f2d2a0b43987b394e46d45b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 53bcbe80f2d2a0b43987b394e46d45b2, type: 3}
       propertyPath: m_RootOrder
@@ -27478,6 +28266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -27540,6 +28332,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (103)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -27637,6 +28433,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dcde1f44ae7793645b90074bc2c5871f, type: 3}
       propertyPath: m_Name
       value: ironworks
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dcde1f44ae7793645b90074bc2c5871f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dcde1f44ae7793645b90074bc2c5871f, type: 3}
       propertyPath: m_RootOrder
@@ -27920,6 +28720,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palisade (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
       value: 73
@@ -28036,6 +28840,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder
@@ -28190,6 +28998,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_Name
       value: palisade (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b0df067d8acef346aae1d839098fcbb, type: 3}
       propertyPath: m_RootOrder

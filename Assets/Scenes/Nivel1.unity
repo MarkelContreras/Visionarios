@@ -1198,6 +1198,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3655122399371990756, guid: b0b4c1c1dea91474e80b958446c76e5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0b4c1c1dea91474e80b958446c76e5b, type: 3}
 --- !u!1001 &145597055
@@ -1850,6 +1855,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree 4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5603335818341881996, guid: 2e0bdbada749e6f48b12cd3f5cadc4f3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7213618203100288504, guid: 2e0bdbada749e6f48b12cd3f5cadc4f3,
         type: 3}
@@ -3129,6 +3139,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree 2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3655122399371990756, guid: b0b4c1c1dea91474e80b958446c76e5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0b4c1c1dea91474e80b958446c76e5b, type: 3}
 --- !u!1001 &538636603
@@ -4197,6 +4212,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree 4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5603335818341881996, guid: 2e0bdbada749e6f48b12cd3f5cadc4f3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7213618203100288504, guid: 2e0bdbada749e6f48b12cd3f5cadc4f3,
         type: 3}
       propertyPath: m_RootOrder
@@ -4619,6 +4639,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree 3 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759554402409908225, guid: ab1a291faed69db41860cdd7b273c28d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3873039402746434026, guid: ab1a291faed69db41860cdd7b273c28d,
         type: 3}
@@ -5394,6 +5419,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree 2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3655122399371990756, guid: b0b4c1c1dea91474e80b958446c76e5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0b4c1c1dea91474e80b958446c76e5b, type: 3}
 --- !u!4 &780006425 stripped
@@ -5515,6 +5545,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4470068468865549885, guid: 06573cc19fb2e4a479092a9b4687b26c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06573cc19fb2e4a479092a9b4687b26c, type: 3}
@@ -7076,6 +7111,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree 3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1759554402409908225, guid: ab1a291faed69db41860cdd7b273c28d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3873039402746434026, guid: ab1a291faed69db41860cdd7b273c28d,
         type: 3}
       propertyPath: m_RootOrder
@@ -7303,6 +7343,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4470068468865549885, guid: 06573cc19fb2e4a479092a9b4687b26c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06573cc19fb2e4a479092a9b4687b26c, type: 3}
@@ -7748,6 +7793,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree 5 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7548925946568531736, guid: 5bec60f4b2bc22b4fa1dcca2ca18225f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bec60f4b2bc22b4fa1dcca2ca18225f, type: 3}
@@ -8978,6 +9028,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree 3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1759554402409908225, guid: ab1a291faed69db41860cdd7b273c28d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3873039402746434026, guid: ab1a291faed69db41860cdd7b273c28d,
         type: 3}
       propertyPath: m_RootOrder
@@ -9146,6 +9201,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3655122399371990756, guid: b0b4c1c1dea91474e80b958446c76e5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0b4c1c1dea91474e80b958446c76e5b, type: 3}
@@ -10317,6 +10377,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree 3 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759554402409908225, guid: ab1a291faed69db41860cdd7b273c28d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3873039402746434026, guid: ab1a291faed69db41860cdd7b273c28d,
         type: 3}
@@ -11547,6 +11612,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree 3 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1759554402409908225, guid: ab1a291faed69db41860cdd7b273c28d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3873039402746434026, guid: ab1a291faed69db41860cdd7b273c28d,
         type: 3}
       propertyPath: m_RootOrder
@@ -11758,6 +11828,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree 3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759554402409908225, guid: ab1a291faed69db41860cdd7b273c28d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3873039402746434026, guid: ab1a291faed69db41860cdd7b273c28d,
         type: 3}
@@ -12057,6 +12132,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5603335818341881996, guid: 2e0bdbada749e6f48b12cd3f5cadc4f3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7213618203100288504, guid: 2e0bdbada749e6f48b12cd3f5cadc4f3,
         type: 3}
@@ -12468,6 +12548,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759554402409908225, guid: ab1a291faed69db41860cdd7b273c28d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3873039402746434026, guid: ab1a291faed69db41860cdd7b273c28d,
         type: 3}
@@ -13130,6 +13215,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4470068468865549885, guid: 06573cc19fb2e4a479092a9b4687b26c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06573cc19fb2e4a479092a9b4687b26c, type: 3}
 --- !u!1001 &1723628585
@@ -13341,6 +13431,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree 5 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7548925946568531736, guid: 5bec60f4b2bc22b4fa1dcca2ca18225f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bec60f4b2bc22b4fa1dcca2ca18225f, type: 3}
@@ -14070,6 +14165,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree 3 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759554402409908225, guid: ab1a291faed69db41860cdd7b273c28d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3873039402746434026, guid: ab1a291faed69db41860cdd7b273c28d,
         type: 3}
@@ -15286,6 +15386,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree 2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3655122399371990756, guid: b0b4c1c1dea91474e80b958446c76e5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0b4c1c1dea91474e80b958446c76e5b, type: 3}
 --- !u!4 &2030450240 stripped
@@ -15436,6 +15541,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree 5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7548925946568531736, guid: 5bec60f4b2bc22b4fa1dcca2ca18225f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bec60f4b2bc22b4fa1dcca2ca18225f, type: 3}
 --- !u!1001 &2042199281
@@ -15504,6 +15614,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7548925946568531736, guid: 5bec60f4b2bc22b4fa1dcca2ca18225f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bec60f4b2bc22b4fa1dcca2ca18225f, type: 3}
