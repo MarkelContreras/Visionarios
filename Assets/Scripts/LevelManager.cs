@@ -28,7 +28,7 @@ public class LevelManager : MonoBehaviour {
         if (--instance.enemyCount == 0) Instantiate(instance.goalPrefab, instance.transform.position, instance.transform.rotation);
     }
 
-    void Awakw() {
+    void Awake() {
         instance = this;
         if (GameData.Get().scrollsFound[currentLevel - 1]) Destroy(scroll);
         if (enemyCount == 0) Instantiate(goalPrefab, transform.position, transform.rotation);
