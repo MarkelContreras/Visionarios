@@ -15,6 +15,12 @@ public class Enemy : MonoBehaviour
         animator.SetBool("Running", true);
     }
 
+    public void Die() {
+        animator.SetBool("Dead", true);
+        gameObject.layer = 7; //Ignore collisions
+        LevelManager.EnemyKilled();
+    }
+
     // Update is called once per frame
     void Update()
     {
