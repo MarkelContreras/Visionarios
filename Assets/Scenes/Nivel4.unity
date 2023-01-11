@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12075967, g: 0.18638065, b: 0.33532852, a: 1}
+  m_IndirectSpecularColor: {r: 0.12076026, g: 0.18643647, b: 0.33524987, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -282,7 +282,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentLevel: 4
   enemyCount: 0
-  goalPrefab: {fileID: 0}
+  goalPrefab: {fileID: 3925536168995720469, guid: d4168e6def678964e80c2e72eaea0b47,
+    type: 3}
   scroll: {fileID: 695231438}
 --- !u!4 &16381186
 Transform:
@@ -2778,7 +2779,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1011465430 stripped
 BoxCollider:
