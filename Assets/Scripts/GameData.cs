@@ -31,6 +31,11 @@ public class GameData {
         stream.Close();
     }
 
+    public static void Reset() {
+        instance = new GameData();
+        Save();
+    }
+
     public static void Load() {
         if (File.Exists(Application.persistentDataPath + "/GameData.xml")) {
             XmlSerializer serializer = new XmlSerializer(typeof(GameData));
