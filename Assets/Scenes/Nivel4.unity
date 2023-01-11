@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12077355, g: 0.18638644, b: 0.3353142, a: 1}
+  m_IndirectSpecularColor: {r: 0.12075967, g: 0.18638065, b: 0.33532852, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 7363161}
   - component: {fileID: 7363160}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Ambiente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -280,10 +280,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54e3fb5cf8c14eaca9f6f452761ec0f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentLevel: 3
+  currentLevel: 4
   enemyCount: 0
   goalPrefab: {fileID: 0}
-  scroll: {fileID: 0}
+  scroll: {fileID: 695231438}
 --- !u!4 &16381186
 Transform:
   m_ObjectHideFlags: 0
@@ -2247,6 +2247,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8d8af62a5ca34b48a0ed704abce9482, type: 3}
+--- !u!1 &695231438 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5819518429142162545, guid: f8d8af62a5ca34b48a0ed704abce9482,
+    type: 3}
+  m_PrefabInstance: {fileID: 695231437}
+  m_PrefabAsset: {fileID: 0}
 --- !u!65 &738417676 stripped
 BoxCollider:
   m_CorrespondingSourceObject: {fileID: 65324286609919826, guid: 6a77368dc5b8f33458b9723a087286e5,
@@ -2772,7 +2778,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1011465430 stripped
 BoxCollider:
