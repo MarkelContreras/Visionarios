@@ -104,7 +104,7 @@ public class Enemy : MonoBehaviour {
             chasing = true;
             canMove = false;
             if (!justAttacked) attacking = true;
-            Invoke(nameof(LastCheckAttack), 0.8f);
+            Invoke(nameof(LastCheckAttack), 0.5f);
         } else {
             canMove = true;
         }
