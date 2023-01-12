@@ -17,6 +17,7 @@ public class Enemy : MonoBehaviour {
     
     private Vector3 destination;
     private bool hasDestination = false;
+    public bool hasRotation = false;
     private int wonderCount = 0;
     private bool canMove = true;
     private bool chasing = false;
@@ -64,6 +65,7 @@ public class Enemy : MonoBehaviour {
 
     void Update() {
         if (isDead) return;
+        hasRotation = true;
         attackable = InDistanceAndView(attackDistance);
         justAttacked = false;
         if (attacking) {
@@ -77,8 +79,18 @@ public class Enemy : MonoBehaviour {
                 destination = wonderingDestinations[wonderCount].position;
                 hasDestination = true;
                 chasing = false;
+                nav.stoppingDistance = 0f;
                 nav.speed = walkingSpeed;
-            } 
+            } else {
+                Vector3 d = wonderingDestinations[0].forward;
+                d.y = 0;
+                float angle = Vector3.Angle(d, transform.forward);
+                hasRotation = angle != 0;
+                if (hasRotation) {
+                    Quaternion rot = Quaternion.LookRotation(d);
+                    transform.rotation = Quaternion.Lerp(transform.rotation, rot, (nav.angularSpeed * Time.deltaTime) / angle);
+                }
+            }
         } else {
             if (canMove) {
                 nav.destination = destination;
@@ -96,6 +108,7 @@ public class Enemy : MonoBehaviour {
         if (InDistanceAndView(viewDistance)) {
             hasDestination = true;
             chasing = true;
+            nav.stoppingDistance = attackDistance - 1;
             nav.speed = chasingSpeed;
             destination = target.transform.position;
         }
@@ -108,7 +121,7 @@ public class Enemy : MonoBehaviour {
         } else {
             canMove = true;
         }
-        animator.SetBool("Walking", hasDestination);
+        animator.SetBool("Walking", hasDestination || hasRotation);
         animator.SetBool("Running", chasing);
         animator.SetBool("Attacking", attacking);
     }

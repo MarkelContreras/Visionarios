@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour {
     private Vector3 pendingVelocity = new Vector3(0, 0, 0);
     private Vector3 walkVelocity = new Vector3(0, 0, 0);
     private Vector2 moveDir = new Vector2(0, 0);
+    private float vYCap = 0;
 
     private void Awake() {
         inputActionAsset.Enable();
@@ -60,6 +61,11 @@ public class PlayerMovement : MonoBehaviour {
             pendingVelocity = Vector3.zero;
         } else if (GrabManager.GetMovingMetal() == null || GrabManager.GetMovingMetal().MetalMoves()) {
             v += Physics.gravity * Time.fixedDeltaTime;
+        }
+        if ((GrabManager.GetMovingMetal() != null && !GrabManager.GetMovingMetal().MetalMoves()) || inGround || v.y < vYCap) {
+            vYCap = v.y;
+        } else {
+            v.y = vYCap;
         }
         walkVelocity = (Quaternion.Euler(0, camera.rotation.eulerAngles.y, 0) * new Vector3(moveDir.x, 0, moveDir.y)) * speed;
         this.controller.Move((v + walkVelocity) * Time.fixedDeltaTime);

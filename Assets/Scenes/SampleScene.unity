@@ -967,23 +967,23 @@ PrefabInstance:
     - target: {fileID: 572833653182607433, guid: ec18e66092d5a47409c7a33737308ecc,
         type: 3}
       propertyPath: wonderingDestinations.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 572833653182607433, guid: ec18e66092d5a47409c7a33737308ecc,
         type: 3}
       propertyPath: wonderingDestinations.Array.data[0]
       value: 
-      objectReference: {fileID: 982350302}
+      objectReference: {fileID: 575464187}
     - target: {fileID: 572833653182607433, guid: ec18e66092d5a47409c7a33737308ecc,
         type: 3}
       propertyPath: wonderingDestinations.Array.data[1]
       value: 
-      objectReference: {fileID: 1241674686}
+      objectReference: {fileID: 575464187}
     - target: {fileID: 572833653182607433, guid: ec18e66092d5a47409c7a33737308ecc,
         type: 3}
       propertyPath: wonderingDestinations.Array.data[2]
       value: 
-      objectReference: {fileID: 1877479499}
+      objectReference: {fileID: 575464187}
     - target: {fileID: 572833653182607433, guid: ec18e66092d5a47409c7a33737308ecc,
         type: 3}
       propertyPath: wonderingDestinations.Array.data[3]
