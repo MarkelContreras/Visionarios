@@ -7206,7 +7206,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 213
+  m_RootOrder: 219
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &767444482
 PrefabInstance:
@@ -10541,7 +10541,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 177
+  m_RootOrder: 184
   m_LocalEulerAnglesHint: {x: 29.768, y: 182.158, z: -69.904}
 --- !u!114 &1133659096
 MonoBehaviour:
@@ -11230,7 +11230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentLevel: 7
-  enemyCount: 5
+  enemyCount: 7
   goalPrefab: {fileID: 3925536168995720469, guid: d4168e6def678964e80c2e72eaea0b47,
     type: 3}
   scroll: {fileID: 1836744316}
