@@ -18965,7 +18965,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentLevel: 5
-  enemyCount: 5
+  enemyCount: 6
   goalPrefab: {fileID: 3925536168995720469, guid: d4168e6def678964e80c2e72eaea0b47,
     type: 3}
   scroll: {fileID: 264373394}
