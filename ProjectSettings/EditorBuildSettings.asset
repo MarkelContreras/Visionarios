@@ -30,11 +30,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Nivel7.unity
     guid: 6d0e7a6255647be46a30a32b9b32a182
   - enabled: 1
-    path: Assets/Scenes/Nivel8.unity
+    path: Assets/Scenes/NIvel8.unity
     guid: 66d1b564b7c6d5645a370f312e9ad617
   - enabled: 1
     path: Assets/Scenes/Nivel9.unity
     guid: 08bf36b684fc1554e85fe39b8d9c8ca2
+  - enabled: 1
+    path: Assets/Multijugador/Scenes/VR Start.unity
+    guid: c7559128d9205c74ba7fe46a29a32072
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 9ed8d38d109317a4b96aad88f5e89701,
       type: 2}
