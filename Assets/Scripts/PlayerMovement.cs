@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour {
     public float floorDistance = 0.1f;
     public LayerMask floor;
 
-    private InputAction moveAction;
+    private UnityEngine.InputSystem.InputAction moveAction;
     private bool inGround;
     private Vector3 lastPos;
     private Vector3 pendingVelocity = new Vector3(0, 0, 0);

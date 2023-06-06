@@ -23,7 +23,7 @@ public class GrabManager : MonoBehaviour {
     public XRRayInteractor xrInteractor;
 
     private GameObject grabPoint;
-    private InputAction metalAction;
+    private UnityEngine.InputSystem.InputAction metalAction;
     private bool coinSpawned = false;
     private int objOldLayer;
 
