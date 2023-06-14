@@ -365,7 +365,7 @@ MonoBehaviour:
   ServerPort: 27015
   DefaultRoomName: DefaultRoom
   AlwaysShowStats: 0
-  InitialScenePath: Assets/Scenes/Game.unity
+  InitialScenePath: Assets/Multijugador/Scenes/Game.unity
   _currentStage: 0
 --- !u!4 &77091305
 Transform:
