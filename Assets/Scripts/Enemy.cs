@@ -66,6 +66,7 @@ public class Enemy : MonoBehaviour {
         Vector3 bestPos = Vector3.zero;
         foreach(Transform t in fleeDestinations) {
             Vector3 posToT = t.position - transform.position;
+            posToT.y = 0;
             if (posToT.magnitude < 1f){
                 continue;
             }
