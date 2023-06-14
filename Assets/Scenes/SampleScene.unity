@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -710,7 +710,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 982350299}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.96, y: 0.12, z: 3.008275}
+  m_LocalPosition: {x: -11.96, y: 0.12, z: 12.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -945,7 +945,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241674683}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.22, y: 0.12, z: 3.008275}
+  m_LocalPosition: {x: -27.3, y: 0.12, z: 12.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -964,6 +964,26 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 597347293}
+    - target: {fileID: 572833653182607433, guid: ec18e66092d5a47409c7a33737308ecc,
+        type: 3}
+      propertyPath: fleeDestinations.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 572833653182607433, guid: ec18e66092d5a47409c7a33737308ecc,
+        type: 3}
+      propertyPath: fleeDestinations.Array.data[0]
+      value: 
+      objectReference: {fileID: 982350302}
+    - target: {fileID: 572833653182607433, guid: ec18e66092d5a47409c7a33737308ecc,
+        type: 3}
+      propertyPath: fleeDestinations.Array.data[1]
+      value: 
+      objectReference: {fileID: 1241674686}
+    - target: {fileID: 572833653182607433, guid: ec18e66092d5a47409c7a33737308ecc,
+        type: 3}
+      propertyPath: fleeDestinations.Array.data[2]
+      value: 
+      objectReference: {fileID: 1877479499}
     - target: {fileID: 572833653182607433, guid: ec18e66092d5a47409c7a33737308ecc,
         type: 3}
       propertyPath: wonderingDestinations.Array.size
@@ -1321,7 +1341,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1877479496}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.22, y: 0.12, z: -6.68}
+  m_LocalPosition: {x: -28.09, y: 0.12, z: -6.68}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
