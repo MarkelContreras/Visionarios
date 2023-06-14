@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1146311, g: 0.3298522, b: 0.7122586, a: 1}
+  m_IndirectSpecularColor: {r: 0.11464225, g: 0.3301195, b: 0.71255356, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3385,8 +3385,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 399410072}
   m_CullTransparentMesh: 1
-<<<<<<< Updated upstream
-=======
 --- !u!1 &415865770
 GameObject:
   m_ObjectHideFlags: 0
@@ -3522,7 +3520,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 415865770}
   m_CullTransparentMesh: 1
->>>>>>> Stashed changes
 --- !u!1 &419074871
 GameObject:
   m_ObjectHideFlags: 0
@@ -10796,8 +10793,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096821253}
   m_CullTransparentMesh: 1
-<<<<<<< Updated upstream
-=======
 --- !u!1 &1101234576
 GameObject:
   m_ObjectHideFlags: 0
@@ -10836,7 +10831,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -98.88, y: -23}
+  m_AnchoredPosition: {x: -98.88, y: -24.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1101234578
@@ -11021,7 +11016,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1106930175}
   m_CullTransparentMesh: 1
->>>>>>> Stashed changes
 --- !u!1 &1110418774
 GameObject:
   m_ObjectHideFlags: 0
@@ -15361,12 +15355,9 @@ RectTransform:
   - {fileID: 741554229}
   - {fileID: 2020282797}
   - {fileID: 681002441}
-<<<<<<< Updated upstream
-=======
   - {fileID: 1101234577}
   - {fileID: 874732998}
   - {fileID: 1106930176}
->>>>>>> Stashed changes
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}

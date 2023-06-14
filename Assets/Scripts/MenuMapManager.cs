@@ -33,7 +33,7 @@ public class MenuMapManager : MonoBehaviour
                 Destroy(scrollLoreTexts[i]);
             }
         }
-        if (destroyLastLevelPlayButton) Destroy(lastLevelPlayButton);
+        //if (destroyLastLevelPlayButton) Destroy(lastLevelPlayButton);
         GameData.Save();
     }
 
