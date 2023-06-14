@@ -9,6 +9,8 @@ public class Enemy : MonoBehaviour {
     public NavMeshAgent nav;
     public Animator animator;
     public Transform[] wonderingDestinations;
+    public Transform[] fleeDestinations;
+
     public float fov = 90f;
     public float viewDistance = 10f;
     public float attackDistance = 1f;
@@ -17,6 +19,7 @@ public class Enemy : MonoBehaviour {
     
     private Vector3 destination;
     private bool hasDestination = false;
+    private bool isFleeing = false;
     public bool hasRotation = false;
     private int wonderCount = 0;
     private bool canMove = true;
@@ -51,6 +54,30 @@ public class Enemy : MonoBehaviour {
         if (InDistanceAndView(attackDistance)) LevelManager.Die();
     }
 
+    private float ScoreToFleeingPoint(Vector3 fleeingPosition, Vector3 playerPosition) {
+        Vector3 posDirection = Vector3.Normalize(fleeingPosition - transform.position);
+        Vector3 playerToPosition = transform.position - playerPosition;
+        Vector3 playerToClosestPosInLine = playerToPosition - Vector3.Dot(playerToPosition, posDirection) * posDirection;
+        return playerToClosestPosInLine.magnitude;
+    }
+
+    private Vector3 SetNextFleeingPoint() {
+        float score = -1f;
+        Vector3 bestPos = Vector3.zero;
+        foreach(Transform t in fleeDestinations) {
+            Vector3 posToT = t.position - transform.position;
+            if (posToT.magnitude < 1f){
+                continue;
+            }
+            float currentScore = ScoreToFleeingPoint(t.position, target.transform.position);
+            if(currentScore > score) {
+                score = currentScore;
+                bestPos = t.position;
+            }
+        }
+        return bestPos;
+    }
+
     void Awake() {
         if (wonderingDestinations.Length == 0) {
             GameObject obj = new GameObject(gameObject.name + "_wonder");
@@ -73,6 +100,12 @@ public class Enemy : MonoBehaviour {
             justAttacked = true;
         }
         if (!hasDestination) {
+            if (isFleeing) {
+                destination  = SetNextFleeingPoint();
+                hasDestination = true;
+                nav.stoppingDistance = 0;
+                nav.speed = chasingSpeed;
+            } 
             if (wonderingDestinations.Length > 1 || chasing) {
                 if (chasing) wonderCount = -1;
                 wonderCount = (wonderCount + 1) % wonderingDestinations.Length;
@@ -107,12 +140,18 @@ public class Enemy : MonoBehaviour {
         }
         if (InDistanceAndView(viewDistance)) {
             hasDestination = true;
-            chasing = true;
-            nav.stoppingDistance = attackDistance - 1;
+            if (fleeDestinations.Length >= 2) {
+                isFleeing = true;
+                destination = SetNextFleeingPoint();
+                nav.stoppingDistance = 0;
+            } else {
+                chasing = true;
+                destination = target.transform.position;
+                nav.stoppingDistance = attackDistance - 1;
+            }
             nav.speed = chasingSpeed;
-            destination = target.transform.position;
         }
-        if (attackable) {
+        if (attackable && !isFleeing) {
             hasDestination = true;
             chasing = true;
             canMove = false;
@@ -122,7 +161,7 @@ public class Enemy : MonoBehaviour {
             canMove = true;
         }
         animator.SetBool("Walking", hasDestination || hasRotation);
-        animator.SetBool("Running", chasing);
+        animator.SetBool("Running", chasing || isFleeing);
         animator.SetBool("Attacking", attacking);
     }
 }
